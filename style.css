@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/A03_Octagon-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+      margin: 0;
+      padding: 1rem;
+      font-family: 'MyCustomFont', sans-serif;
+      background: #4b0532;
+    }
+
+    h2 {
+      margin-bottom: 0.5rem;
+      color: white;
+    }
+
+    .main-console-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .main-console-div img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .main-console-div a {
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ps-a {
+        background-color: #004098;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .ps-a:hover {
+        background-color: #b79bad;
+    }
+
+    .ns-a {
+        background-color: #FF0002;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .ns-a:hover {
+        background-color: #b79bad;
+    }
+
+    .main-title {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-desc {
+        background-color: white;
+        padding: 20px;
+        margin: 2rem;
+        border-radius: 30px;
+    }
+
+    #searchInput {
+      width: 98%;
+      padding: 1rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -0.5rem;
+    }
+
+    .product-card {
+      background: white;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      width: calc(50% - 1rem);
+      box-sizing: border-box;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .product-name {
+      margin-top: 0.5rem;
+      font-weight: bold;
+    }
+
+    .product-version {
+      color: black;
+    }
+
+    .product-price {
+      color: #007bff;
+    }
+
+    /* back to top button css
+    start */
+    #backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    font-size: 20px;
+    background-color: #b79bad;
+    color: #4b0532;
+    border: none;
+    border-radius: 20%;
+    padding: 0.75rem;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    display: none; /* Hidden by default */
+    transition: opacity 0.3s ease;
+  }
+
+  #backToTopBtn:hover {
+    background-color: white;
+  }
+  /* END */
+
+
+    /* 4 per row on larger screens */
+    @media (min-width: 768px) {
+      .product-card {
+        width: calc(25% - 1rem);
+      }
+
+    }
+
+    @media (max-width: 768px) {
+        .game-desc {
+            margin: 0 0 1rem 0;
+            font-size: 10px;
+        }
+
+        #searchInput {
+            width: 90%;
+            padding: 1rem;
+        }
+    }
