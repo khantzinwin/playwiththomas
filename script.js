@@ -115,7 +115,7 @@ const products = [
         name: "Bioshock Remastered", 
         version: "<br>Version - PS4",
         price: "<br> ❌ PS5AA - 15,000ks <br>❌ PS4AA - 15,000ks <br> ✅ DA - 10,000ks", 
-        image: "images/ps4andps5/bioshock-remastered.png" 
+        image: "images/ps4andps5/bioShock-remastered.png" 
       },
 
       { 
