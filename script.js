@@ -963,9 +963,7 @@ const products = [
         version: "<br>Version - PS5 & PS4",
         price: "<br> ❌ PS5AA - 90,000ks <br>❌ PS4AA - 90,000ks <br> ❌ DA - 45,000ks", 
         image: "images/ps4andps5/wwe-2k25.png" 
-      },
-
-      { name: "Super Item", price: "$35", image: "images/ps4andps5/assassin's-creed-antiquity-pack.png" }
+      }
     ];
 
     const productList = document.getElementById("productList");
