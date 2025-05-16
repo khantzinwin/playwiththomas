@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Play with Thomas</title>
   <link rel="icon" href="images/logo.png" type="image/png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_upward" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_upward"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,6 +35,11 @@
     <p>*** လတ်တလော လိုချင်တဲ့ game က ကုန်နေပါက sale end date ကျော်သွားတဲ့အခါ sale အသစ်ပြန်စမှာမို့လို့ အဲ့ sale end date ကျော်သွားရင် တချက်၀င်ကြည့်ပေးပါ။***</p>
   </div>
 
+  <div class="banner-div">
+    <img src="images/sale-banner.png" alt="">
+    <h2>ယခု sale သည် May 21, 2025 တွင် ကုန်ပါမည်။ <br>sale ထဲပါတဲ့ game ကိုသိနိုင်ရင် search box မှာ sale လို့ရိုက်ရှာကြည့်ပေးပါ။</h2>
+  </div>
+
   <input type="text" id="searchInput" placeholder="Search by game name..." />
 
   <div class="product-list" id="productList"></div>
@@ -50,6 +55,11 @@
   <!-- back to top button -->
   <button id="backToTopBtn" title="Go to top">
     <span class="material-symbols-outlined">arrow_upward</span>
+  </button>
+
+  <!-- messenger icon button -->
+  <button id="messengerBtn" title="Buy Game" onclick="openMessenger()">
+    <img class="messenger-photo" src="images/messenger-icon.png" alt="">
   </button>
 
   <script src="script.js"></script>

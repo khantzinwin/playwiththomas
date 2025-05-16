@@ -1239,3 +1239,19 @@ const productList2 = document.getElementById("productList2");
       window.scrollTo({ top: 0, behavior: "smooth" });
     }); 
         //END
+
+    //Messenger Icon Button Start
+    const messengerBtn = document.getElementById("messengerBtn");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 200) {
+        messengerBtn.style.display = "block";
+      } else {
+        messengerBtn.style.display = "none";
+      }
+    });
+
+    function openMessenger() {
+      window.open('http://m.me//ThomasBBR27', '_blank');
+    }
+    //End
