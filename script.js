@@ -325,7 +325,7 @@ const products = [
       { 
         name: "FIFA 22", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 10,000ks <br>✅ PS4AA - 10,000ks <br> ❌ DA - 5,000ks", 
+        price: "<br> ❌ PS5AA - 10,000ks <br>✅ PS4AA - 10,000ks <br> ❌ DA - 5,000ks", 
         image: "images/ps4andps5/fifa-22.png" 
       },
 
