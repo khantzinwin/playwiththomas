@@ -1072,6 +1072,125 @@ const products2 = [
         version: "<br>Version - PS5",
         price: "<br> ❌ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
         image: "images/ps4andps5/ffxvi.png" 
+      },
+
+      { 
+        name: "Forza Horizon 5", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 160,000ks <br> ❌ PS5DA - 80,000ks", 
+        image: "images/ps4andps5/forza-horizon-5.png" 
+      },
+
+      { 
+        name: "Kingdom Come Deliverance II", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 200,000ks <br> ❌ PS5DA - 100,000ks", 
+        image: "images/ps4andps5/kingdom-come-deliverance-ii.png" 
+      },
+
+      { 
+        name: "Life is Strange Double Exposure", 
+        version: "<br>Version - PS5",
+        price: "<br> ✅ PS5AA - 70,000ks <br> ✅ PS5DA - 35,000ks", 
+        image: "images/ps4andps5/life-is-strange-double-exposure.png" 
+      },
+
+      { 
+        name: "Marvel's Spider-Man Remastered", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 60,000ks <br> ❌ PS5DA - 30,000ks", 
+        image: "images/ps4andps5/sm-remastered.png" 
+      },
+
+      { 
+        name: "Marvel's Spider-Man 2", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
+        image: "images/ps4andps5/sm-2.png" 
+      },
+
+      { 
+        name: "Monster Hunter Wilds", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 200,000ks <br> ✅ PS5DA - 100,000ks", 
+        image: "images/ps4andps5/mh-wilds.png" 
+      },
+
+      { 
+        name: "Mortal Kombat 1", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 50,000ks <br> ❌ PS5DA - 25,000ks", 
+        image: "images/ps4andps5/mk1.png" 
+      },
+
+      { 
+        name: "Rise of the Ronin [sale]", 
+        version: "<br>Version - PS5",
+        price: "<br> ✅ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
+        image: "images/ps4andps5/rise-of-the-ronin.png" 
+      },
+
+      { 
+        name: "Silent Hill 2", 
+        version: "<br>Version - PS5",
+        price: "<br> ✅ PS5AA - 130,000ks <br> ✅ PS5DA - 65,000ks", 
+        image: "images/ps4andps5/silent-hill-2.png" 
+      },
+
+      { 
+        name: "Split Fiction", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 130,000ks <br> ❌ PS5DA - 65,000ks", 
+        image: "images/ps4andps5/split-fiction.png" 
+      },
+
+      { 
+        name: "Stellar Blade", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 130,000ks <br> ✅ PS5DA - 65,000ks", 
+        image: "images/ps4andps5/stellar-blade.png" 
+      },
+
+      { 
+        name: "Tekken 8", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
+        image: "images/ps4andps5/tekken-8.png" 
+      },
+
+      { 
+        name: "The Last of Us Part I Remake", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 80,000ks <br> ❌ PS5DA - 40,000ks", 
+        image: "images/ps4andps5/tlous1-remake.png" 
+      },
+
+      { 
+        name: "The Last of Us Part II Remastered", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
+        image: "images/ps4andps5/tlous2-remastered.png" 
+      },
+
+      { 
+        name: "UFC 5", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
+        image: "images/ps4andps5/ufc-5.png" 
+      },
+
+      { 
+        name: "Uncharted Legacy of Thieves Collection", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
+        image: "images/ps4andps5/uncharted-legacy-of-thieves-collection.png" 
+      },
+
+      { 
+        name: "Warhammer 40,000: Space Marine 2", 
+        version: "<br>Version - PS5",
+        price: "<br> ✅ PS5AA - 140,000ks <br> ❌ PS5DA - 70,000ks", 
+        image: "images/ps4andps5/space-marine-2.png" 
       }
 ];
 
