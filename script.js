@@ -1255,3 +1255,10 @@ const productList2 = document.getElementById("productList2");
       window.open('http://m.me//ThomasBBR27', '_blank');
     }
     //End
+
+    // Hard refresh simulation: bypass browser cache on page refresh
+    const navEntries = performance.getEntriesByType("navigation");
+  if (navEntries.length > 0 && navEntries[0].type === "reload") {
+    const baseUrl = window.location.href.split('?')[0];
+    window.location.replace(`${baseUrl}?v=${Date.now()}`);
+  }
