@@ -77,10 +77,26 @@ body {
       border: 1px solid #ccc;
     }
 
-    .product-list {
+    .product-list,
+    .product-list2 {
       display: flex;
       flex-wrap: wrap;
       margin: -0.5rem;
+    }
+
+    .ps5-exc-title h4 {
+      color: #4b0532;
+    }
+
+    .ps5-exc-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-color: white;
+      border-radius: 30px;
+      margin: 3rem 0;
     }
 
     .product-card {

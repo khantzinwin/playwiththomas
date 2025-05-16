@@ -1,3 +1,4 @@
+//ps4 and ps5 digital game list
 const products = [
       { 
         name: "Alan Wake Remastered", 
@@ -993,6 +994,116 @@ const products = [
       const filtered = products.filter(p => p.name.toLowerCase().includes(keyword));
       displayProducts(filtered);
     });
+
+//ps5 execlusive game list
+const products2 = [
+      { 
+        name: "Alan Wake II", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 80,000ks <br> ✅ PS5DA - 40,000ks", 
+        image: "images/ps4andps5/alan-wake-ii.png" 
+      },
+
+      { 
+        name: "Assassin's Creed Shadows", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 200,000ks <br> ❌ PS5DA - 100,000ks", 
+        image: "images/ps4andps5/ac-shadows.png" 
+      },
+
+      { 
+        name: "Astro Bot", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 130,000ks <br> ❌ PS5DA - 65,000ks", 
+        image: "images/ps4andps5/astro-bot.png" 
+      },
+
+      { 
+        name: "A Plague Tale: Requiem", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 60,000ks <br> ❌ PS5DA - 30,000ks", 
+        image: "images/ps4andps5/a-plague-tale-requiem.png" 
+      },
+
+      { 
+        name: "Black Myth Wukong", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 130,000ks <br> ❌ PS5DA - 80,000ks", 
+        image: "images/ps4andps5/bmw.png" 
+      },
+
+      { 
+        name: "Brothers: A Tale of Two Sons Remake [sale]", 
+        version: "<br>Version - PS5",
+        price: "<br> ✅ PS5AA - 30,000ks <br> ✅ PS5DA - 15,000ks", 
+        image: "images/ps4andps5/brothers-ataleoftwosons.png" 
+      },
+
+      { 
+        name: "Devil May Cry 5 Special Edition", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 30,000ks <br> ✅ PS5DA - 15,000ks", 
+        image: "images/ps4andps5/dmc5-se.png" 
+      },
+
+      { 
+        name: "Dragon's Dogma 2", 
+        version: "<br>Version - PS5",
+        price: "<br> ✅ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
+        image: "images/ps4andps5/dragon-dogma-ii.png" 
+      },
+
+      { 
+        name: "Dynasty Warriors Origins", 
+        version: "<br>Version - PS5",
+        price: "<br> ✅ PS5AA - 150,000ks <br> ✅ PS5DA - 75,000ks", 
+        image: "images/ps4andps5/dynasty-warriors-origins.png" 
+      },
+
+      { 
+        name: "Final Fantasy VII Rebirth", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
+        image: "images/ps4andps5/ff7-rebirth.png" 
+      },
+
+      { 
+        name: "Final Fantasy XVI", 
+        version: "<br>Version - PS5",
+        price: "<br> ❌ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
+        image: "images/ps4andps5/ffxvi.png" 
+      }
+];
+
+const productList2 = document.getElementById("productList2");
+    const searchInput2 = document.getElementById("searchInput");
+
+    function displayProducts2(filteredProducts2) {
+      productList2.innerHTML = "";
+      filteredProducts2.forEach(p => {
+        const card = document.createElement("div");
+        card.className = "product-card";
+        card.innerHTML = `
+          <img src="${p.image}" alt="${p.name}">
+          <div class="product-name">${p.name}</div>
+          <div class="product-version">${p.version}</div>
+          <div class="product-price">${p.price}</div>
+        `;
+        productList2.appendChild(card);
+      });
+    }
+
+    // Initial render
+    displayProducts2(products2);
+
+    // Filter as user types
+    searchInput2.addEventListener("input", () => {
+      const keyword = searchInput2.value.toLowerCase();
+      const filtered = products2.filter(p => p.name.toLowerCase().includes(keyword));
+      displayProducts2(filtered);
+    });
+
+
 
     // Back to Top Button Script Start
     const backToTopBtn = document.getElementById("backToTopBtn");
