@@ -1168,7 +1168,7 @@ const products2 = [
       { 
         name: "The Last of Us Part II Remastered", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
+        price: "<br> ❌ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
         image: "images/ps4andps5/tlous2-remastered.png" 
       },
 
@@ -1182,7 +1182,7 @@ const products2 = [
       { 
         name: "Uncharted Legacy of Thieves Collection", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
+        price: "<br> ✅ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
         image: "images/ps4andps5/uncharted-legacy-of-thieves-collection.png" 
       },
 
