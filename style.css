@@ -4,6 +4,9 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  margin: 0;
+}
 
 body {
       margin: 0;
@@ -15,6 +18,21 @@ body {
     h2 {
       margin-bottom: 0.5rem;
       color: white;
+    }
+
+    .nav-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      background-color: #4b0532;
+    }
+
+    .nav-div img {
+      width: 100px;
+      height: 100px;
     }
 
     .banner-div{
@@ -53,6 +71,9 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-decoration: none;
+        color: white;
+        text-align: center;
     }
 
     .ps-a {
@@ -100,7 +121,7 @@ body {
     .product-list2 {
       display: flex;
       flex-wrap: wrap;
-      margin: -0.5rem;
+      margin: 2rem 0 3.5rem;
     }
 
     .ps5-exc-title h4 {
@@ -211,6 +232,10 @@ body {
         .game-desc {
             margin: 0 0 1rem 0;
             font-size: 10px;
+        }
+
+        .main-console-div p {
+          font-size: 10px;
         }
 
         #searchInput {
