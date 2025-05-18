@@ -701,7 +701,7 @@ const products = [
       },
 
       { 
-        name: "Resident Evil 4 Remake", 
+        name: "Resident Evil 4 Remake [sale]", 
         version: "<br>Version - PS5 & PS4",
         price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
         image: "images/ps4andps5/re4-remake.png" 
