@@ -922,6 +922,7 @@ const products = [
         image: "images/nintendo-switch/this-war-of-mine-complete-edition.png" 
       },
 
+      //sale May 25, 2025
       { 
         name: "The Witcher III Wild Hunt Complete Edition", 
         version: "<br>Version - NS",
