@@ -664,9 +664,9 @@ const products = [
       },
 
       { 
-        name: "Prince of Persia the Lost Crown [primary]", 
+        name: "Prince of Persia the Lost Crown", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 40,000ks <br>✅ NA - 20,000ks", 
+        price: "<br> ❌ PA - 40,000ks <br>✅ NA - 20,000ks", 
         image: "images/nintendo-switch/prince-of-persia-the-lost-crown.png" 
       },
 
