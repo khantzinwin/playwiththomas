@@ -203,6 +203,13 @@ const products = [
       },
 
       { 
+        name: "Demon Slayer the Hinokami Chronicles", 
+        version: "<br>Version - NS",
+        price: "<br> ❌ PA - 35,000ks <br>✅ NA - 20,000ks", 
+        image: "images/ps4andps5/demon-slayer.png" 
+      },
+
+      { 
         name: "Devil May Cry 3 Special Edition", 
         version: "<br>Version - NS",
         price: "<br> ❌ PA - 20,000ks <br>❌ NA - 10,000ks", 
