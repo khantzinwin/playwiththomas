@@ -174,6 +174,14 @@ const products = [
         image: "images/ps4andps5/crash-bandicoot-nsane-trilogy.png" 
       },
 
+      //sale - May 30, 2025
+      { 
+        name: "Crash Team Racing Nitro Fueled", 
+        version: "<br>Version - NS",
+        price: "<br> ✅ PA - 30,000ks <br>✅ NA - 15,000ks", 
+        image: "images/ps4andps5/crash-team-racing.png" 
+      },
+
       { 
         name: "Crysis 1 Remastered", 
         version: "<br>Version - NS",
