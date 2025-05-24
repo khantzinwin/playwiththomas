@@ -392,6 +392,13 @@ const products = [
       },
 
       { 
+        name: "It Takes Two [primary]", 
+        version: "<br>Version - NS",
+        price: "<br> ✅ PA - 40,000ks <br>✅ NA - 20,000ks", 
+        image: "images/ps4andps5/it-takes-two.png" 
+      },
+
+      { 
         name: "Jet Kave Adventure", 
         version: "<br>Version - NS",
         price: "<br> ❌ PA - 6,000ks <br>✅ NA - 3,000ks", 
