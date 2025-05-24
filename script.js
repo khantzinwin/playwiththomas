@@ -94,7 +94,7 @@ const products = [
       { 
         name: "A Way Out + It Takes Two [Hazelight Bundle]", 
         version: "<br>Version - A Way Out [PS4], It Takes Two [PS5/PS4]",
-        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
         image: "images/ps4andps5/hazelight-bundle.png" 
       },
 
