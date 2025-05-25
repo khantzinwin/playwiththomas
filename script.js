@@ -885,7 +885,7 @@ const products = [
       { 
         name: "The Walking Dead: The Telltale Definitive Series", 
         version: "<br>Version - PS4",
-        price: "<br> ❌ PS5AA - 30,000ks <br>✅ PS4AA - 30,000ks <br> ❌ DA - 15,000ks", 
+        price: "<br> ❌ PS5AA - 30,000ks <br>❌ PS4AA - 30,000ks <br> ❌ DA - 15,000ks", 
         image: "images/ps4andps5/the-walking-dead.png" 
       },
 
