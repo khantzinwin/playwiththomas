@@ -276,7 +276,7 @@ const products = [
       { 
         name: "Elden Ring Nightreign", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 60,000ks <br>✅ PS4AA - 60,000ks <br> ✅ DA - 30,000ks", 
+        price: "<br> ❌ PS5AA - 60,000ks <br>✅ PS4AA - 60,000ks <br> ✅ DA - 30,000ks", 
         image: "images/ps4andps5/elden-ring-nightreign.png" 
       },
 
