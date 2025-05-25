@@ -1000,7 +1000,7 @@ const products2 = [
       { 
         name: "Alan Wake II", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 80,000ks <br> ✅ PS5DA - 40,000ks", 
+        price: "<br> ❌ PS5AA - 80,000ks <br> ❌ PS5DA - 40,000ks", 
         image: "images/ps4andps5/alan-wake-ii.png" 
       },
 
