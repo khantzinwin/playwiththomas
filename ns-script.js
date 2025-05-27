@@ -601,10 +601,11 @@ const products = [
         image: "images/nintendo-switch/no-man-sky.png" 
       },
 
+      //Sale End on June 9, 2025
       { 
-        name: "Need for Speed Hot Pursuit Remastered", 
+        name: "Need for Speed Hot Pursuit Remastered [Primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 15,000ks <br>✅ NA - 7,000ks", 
+        price: "<br> ✅ PA - 15,000ks <br>✅ NA - 7,000ks", 
         image: "images/nintendo-switch/nfs-hot-pursuit.png" 
       },
 
