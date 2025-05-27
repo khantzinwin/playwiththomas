@@ -1007,7 +1007,7 @@ const products2 = [
       { 
         name: "Assassin's Creed Shadows", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 200,000ks <br> ❌ PS5DA - 100,000ks", 
+        price: "<br> ✅ PS5AA - 150,000ks <br> ❌ PS5DA - 75,000ks", 
         image: "images/ps4andps5/ac-shadows.png" 
       },
 
