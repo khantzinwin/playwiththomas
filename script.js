@@ -73,7 +73,7 @@ const products = [
       { 
         name: "Assassin's Creed Valhalla Complete Edition", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 60,000ks <br>❌ PS4AA - 60,000ks <br> ✅ DA - 30,000ks", 
+        price: "<br> ❌ PS5AA - 60,000ks <br>❌ PS4AA - 60,000ks <br> ✅ DA - 30,000ks", 
         image: "images/ps4andps5/assassin's-creed-valhalla-complete-edition.png" 
       },
 
