@@ -63,7 +63,7 @@ const products = [
         image: "images/ps4andps5/assassin's-creed-unity.png" 
       },
 
-      { 
+      {  
         name: "Assassin's Creed Valhalla", 
         version: "<br>Version - PS5 & PS4",
         price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
@@ -1049,7 +1049,7 @@ const products2 = [
       { 
         name: "Dragon's Dogma 2", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
+        price: "<br> ✅ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
         image: "images/ps4andps5/dragon-dogma-ii.png" 
       },
 
