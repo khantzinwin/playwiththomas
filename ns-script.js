@@ -436,7 +436,7 @@ const products = [
       { 
         name: "LEGO Horizon Adventures", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 80,000ks <br>✅ NA - 40,000ks", 
+        price: "<br> ✅ PA - 60,000ks <br>✅ NA - 30,000ks", 
         image: "images/nintendo-switch/lego-horizon.png" 
       },
 
