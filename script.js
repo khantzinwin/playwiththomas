@@ -1049,7 +1049,7 @@ const products2 = [
       { 
         name: "Dragon's Dogma 2", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
+        price: "<br> ❌ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
         image: "images/ps4andps5/dragon-dogma-ii.png" 
       },
 
