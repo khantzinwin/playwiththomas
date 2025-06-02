@@ -248,7 +248,7 @@ const products = [
       { 
         name: "Dying Light Definitive Edition", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "images/ps4andps5/dying-light.png" 
       },
 
