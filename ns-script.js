@@ -174,11 +174,10 @@ const products = [
         image: "images/ps4andps5/crash-bandicoot-nsane-trilogy.png" 
       },
 
-      //sale - May 30, 2025
       { 
-        name: "Crash Team Racing Nitro Fueled [primary]", 
+        name: "Crash Team Racing Nitro Fueled", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 30,000ks <br>✅ NA - 15,000ks", 
+        price: "<br> ❌ PA - 30,000ks <br>✅ NA - 15,000ks", 
         image: "images/ps4andps5/crash-team-racing.png" 
       },
 
@@ -393,9 +392,9 @@ const products = [
       },
 
       { 
-        name: "It Takes Two [primary]", 
+        name: "It Takes Two", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 40,000ks <br>✅ NA - 20,000ks", 
+        price: "<br> ❌ PA - 40,000ks <br>❌ NA - 20,000ks", 
         image: "images/ps4andps5/it-takes-two.png" 
       },
 
@@ -946,11 +945,10 @@ const products = [
         image: "images/nintendo-switch/this-war-of-mine-complete-edition.png" 
       },
 
-      //sale May 25, 2025
       { 
         name: "The Witcher III Wild Hunt Complete Edition", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 40,000ks <br>✅ NA - 20,000ks", 
+        price: "<br> ❌ PA - 40,000ks <br>✅ NA - 20,000ks", 
         image: "images/nintendo-switch/the-witcher-iii-wild-hunt-complete-edition.png" 
       },
 
