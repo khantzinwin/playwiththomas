@@ -711,7 +711,7 @@ const products = [
         name: "Resident Evil 4", 
         version: "<br>Version - NS",
         price: "<br> ❌ PA - 20,000ks <br>✅ NA - 10,000ks", 
-        image: "images/nintendo-switch/resident-evil-4.png" 
+        image: "images/ps4andps5/re4-classic.png" 
       },
 
       { 
