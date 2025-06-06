@@ -401,7 +401,7 @@ const products = [
 
       { 
         name: "Green Hell [sale]", 
-        version: "<br>Version - PS4",
+        version: "<br>Version - PS4 & PS5",
         price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
         image: "images/ps4andps5/green-hell.png" 
       },
