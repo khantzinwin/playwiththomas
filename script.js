@@ -185,7 +185,7 @@ const products = [
       { 
         name: "Call of Duty WWII Gold Edition", 
         version: "<br>Version - PS4",
-        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
         image: "images/ps4andps5/cod-wwii.png" 
       },
 
