@@ -259,9 +259,9 @@ const products = [
       },
 
       { 
-        name: "Dragon's Dogma: Dark Arisen", 
+        name: "Dragon's Dogma: Dark Arisen [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 15,000ks <br>✅ NA - 7,000ks", 
+        price: "<br> ✅ PA - 15,000ks <br>✅ NA - 7,000ks", 
         image: "images/nintendo-switch/dragon-dogma.png" 
       },
 
