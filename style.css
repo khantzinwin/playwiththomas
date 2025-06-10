@@ -122,7 +122,7 @@ body {
       transition: opacity 0.3s ease;
       border: 1px solid rgba(255, 255, 255, 0.2);
       background-color: rgba(255, 255, 255, 0.2);
-      backdrop-filter: blur(20px) saturate(120%);
+      backdrop-filter: blur(3px) saturate(120%);
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
@@ -198,7 +198,7 @@ body {
     transition: opacity 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px) saturate(120%);
+    backdrop-filter: blur(3px) saturate(120%);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 
@@ -222,7 +222,7 @@ body {
     transition: opacity 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px) saturate(120%);
+    backdrop-filter: blur(3px) saturate(120%);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 
