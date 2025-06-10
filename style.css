@@ -16,7 +16,7 @@ body {
       background-position: center;
       background-size: cover;
       background-attachment: fixed; /* This makes the background fixed */
-       min-height: 100vh;
+      min-height: 100vh;
     }
 
     .bg-index {
@@ -288,6 +288,9 @@ body {
     }
 
     @media (max-width: 768px) {
+      body {
+        background-position: top center;
+      }
         .game-desc {
             margin: 0 0 1rem 0;
             font-size: 10px;
