@@ -1054,6 +1054,13 @@ const products2 = [
       },
 
       { 
+        name: "Death Stranding 2 [Pre Order]", 
+        version: "<br>Version - PS5",
+        price: "<br> ✅ PS5AA - 200,000ks <br> ✅ PS5DA - 100,000ks", 
+        image: "images/ps4andps5/death-stranding-2.png" 
+      },
+
+      { 
         name: "Devil May Cry 5 Special Edition", 
         version: "<br>Version - PS5",
         price: "<br> ❌ PS5AA - 30,000ks <br> ❌ PS5DA - 15,000ks", 
