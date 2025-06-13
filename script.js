@@ -220,7 +220,7 @@ const products = [
       { 
         name: "Cyberpunk 2077", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 45,000ks <br>✅ PS4AA - 45,000ks <br> ✅ DA - 25,000ks", 
+        price: "<br> ❌ PS5AA - 45,000ks <br>✅ PS4AA - 45,000ks <br> ❌ DA - 25,000ks", 
         image: "images/ps4andps5/cyberpunk-2077.png" 
       },
 
