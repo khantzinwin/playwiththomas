@@ -1050,6 +1050,43 @@ const products = [
       displayProducts(filtered);
     });
 
+    const products2 = [
+      { 
+        name: "Cyberpunk 2077 Ultimate Edition", 
+        version: "<br>Version - NS2",
+        price: "<br> ✅ PA - 150,000ks <br> ✅ NA - 75,000ks", 
+        image: "images/nintendo-switch/cyberpunk.png" 
+      },
+    ];
+
+    const productList2 = document.getElementById("productList2");
+    const searchInput2 = document.getElementById("searchInput");
+
+    function displayProducts2(filteredProducts2) {
+      productList2.innerHTML = "";
+      filteredProducts2.forEach(p => {
+        const card = document.createElement("div");
+        card.className = "product-card";
+        card.innerHTML = `
+          <img src="${p.image}" alt="${p.name}">
+          <div class="product-name">${p.name}</div>
+          <div class="product-version">${p.version}</div>
+          <div class="product-price">${p.price}</div>
+        `;
+        productList2.appendChild(card);
+      });
+    }
+
+    // Initial render
+    displayProducts2(products2);
+
+    // Filter as user types
+    searchInput2.addEventListener("input", () => {
+      const keyword = searchInput2.value.toLowerCase();
+      const filtered = products2.filter(p => p.name.toLowerCase().includes(keyword));
+      displayProducts2(filtered);
+    });
+
     // Back to Top Button Script Start
     const backToTopBtn = document.getElementById("backToTopBtn");
 
