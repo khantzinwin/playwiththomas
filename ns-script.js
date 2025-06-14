@@ -275,7 +275,7 @@ const products = [
       { 
         name: "Dying Light Definitive Edition", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 20,000ks <br>✅ NA - 10,000ks", 
+        price: "<br> ❌ PA - 20,000ks <br>✅ NA - 10,000ks", 
         image: "images/ps4andps5/dying-light.png" 
       },
 
@@ -436,7 +436,7 @@ const products = [
       { 
         name: "LEGO Horizon Adventures", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 60,000ks <br>✅ NA - 30,000ks", 
+        price: "<br> ❌ PA - 60,000ks <br>✅ NA - 30,000ks", 
         image: "images/nintendo-switch/lego-horizon.png" 
       },
 

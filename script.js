@@ -1182,7 +1182,7 @@ const products2 = [
       { 
         name: "The Last of Us Part I Remake", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 80,000ks <br> ✅ PS5DA - 40,000ks", 
+        price: "<br> ✅ PS5AA - 80,000ks <br> ✅ PS5DA - 40,000ks", 
         image: "images/ps4andps5/tlous1-remake.png" 
       },
 
