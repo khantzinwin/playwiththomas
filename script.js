@@ -591,7 +591,7 @@ const products = [
       { 
         name: "Mortal Kombat 11 Ultimate Edition & Injustice 2 Legendary Edition", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "images/ps4andps5/ultimate-fighter-bundle.png" 
       },
 
