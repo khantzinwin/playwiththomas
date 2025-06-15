@@ -567,9 +567,9 @@ const products = [
       },
 
       { 
-        name: "Mortal Kombat 11 Ultimate Edition", 
+        name: "Mortal Kombat 11 Ultimate Edition [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 20,000ks <br>✅ NA - 10,000ks", 
+        price: "<br> ✅ PA - 20,000ks <br>✅ NA - 10,000ks", 
         image: "images/ps4andps5/mk11-ue.png" 
       },
 
@@ -1052,10 +1052,17 @@ const products = [
 
     const products2 = [
       { 
-        name: "Cyberpunk 2077 Ultimate Edition", 
+        name: "Cyberpunk 2077 Ultimate Edition [primary]", 
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 150,000ks <br> ✅ NA - 75,000ks", 
         image: "images/nintendo-switch/cyberpunk.png" 
+      },
+
+      { 
+        name: "Split Fiction [primary]", 
+        version: "<br>Version - NS2",
+        price: "<br> ✅ PA - 100,000ks <br> ✅ NA - 50,000ks", 
+        image: "images/nintendo-switch/split-fiction.png" 
       },
     ];
 
