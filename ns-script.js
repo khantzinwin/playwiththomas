@@ -520,7 +520,7 @@ const products = [
       { 
         name: "Mario Kart 8 Deluxe", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 60,000ks <br>✅ NA - 35,000ks", 
+        price: "<br> ❌ PA - 60,000ks <br>❌ NA - 35,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/mario-kart-8-deluxe.png" 
       },
 
