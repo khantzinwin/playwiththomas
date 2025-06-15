@@ -9,23 +9,37 @@
 }
 
 body {
-      margin: 0;
-      padding: 1rem;
-      font-family: 'MyCustomFont', sans-serif;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed; /* This makes the background fixed */
-      min-height: 100vh;
-    }
+  margin: 0;
+  padding: 1rem;
+  font-family: 'MyCustomFont', sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
 
-    .bg-index {
-      background-image: url(images/ps-wallpaper.jpg);
-    }
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
 
-    .bg-ns {
-      background-image: url(images/ns-wallpaper.jpg);
-    }
+.bg-index::before {
+  background-image: url(images/ps-wallpaper.jpg);
+}
+
+.bg-ns::before {
+  background-image: url(images/ns-wallpaper.jpg);
+}
 
     h2 {
       margin-bottom: 0.5rem;
@@ -163,20 +177,22 @@ body {
       margin: 2rem 0 3.5rem;
     }
 
-    .ps5-exc-title h4 {
-      color: #4b0532;
-    }
-
     .ps5-exc-title {
+      color: whitesmoke;
+      line-height: 1.5;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       width: 100%;
-      background-color: white;
       border-radius: 30px;
       margin: 3rem 0;
       padding: 20px 8px;
+      transition: opacity 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(5px) saturate(120%);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
     .product-card {
@@ -191,7 +207,7 @@ body {
       transition: opacity 0.3s ease;
       border: 1px solid rgba(255, 255, 255, 0.2);
       background-color: rgba(255, 255, 255, 0.2);
-      backdrop-filter: blur(20px) saturate(120%);
+      backdrop-filter: blur(5px) saturate(120%);
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
