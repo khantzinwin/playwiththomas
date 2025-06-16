@@ -919,14 +919,14 @@ const products = [
       { 
         name: "The Legend of Zelda: Breath of the Wild", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 60,000ks <br>❌ NA - 30,000ks", 
+        price: "<br> ❌ PA - 80,000ks <br>✅ NA - 40,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/the-legend-of-zelda-breath-of-the-wild.png" 
       },
 
       { 
         name: "The Legend of Zelda: Tears of the Kingdom", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 100,000ks <br>❌ NA - 50,000ks", 
+        price: "<br> ❌ PA - 100,000ks <br>✅ NA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/the-legend-of-zelda-tears-of-the-kingdom.png" 
       },
 
