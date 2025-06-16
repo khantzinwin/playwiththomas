@@ -1059,6 +1059,13 @@ const products = [
       },
 
       { 
+        name: "Mario Kart World [primary]", 
+        version: "<br>Version - NS2",
+        price: "<br> ✅ PA - 160,000ks <br> ✅ NA - 80,000ks", 
+        image: "https://storage.googleapis.com/pwt-img/nintendo-switch/mario-kart-world.png" 
+      },
+
+      { 
         name: "Split Fiction [primary]", 
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 100,000ks <br> ✅ NA - 50,000ks", 
