@@ -606,7 +606,7 @@ const products = [
         name: "Naruto Storm Trilogy", 
         version: "<br>Version - PS4",
         price: "<br> ✅ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
-        image: "images/nintendo-switch/naruto-storm-trilogy.png" 
+        image: "https://storage.googleapis.com/pwt-img/nintendo-switch/naruto-storm-trilogy.png" 
       },
 
       { 
