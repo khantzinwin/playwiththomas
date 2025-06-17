@@ -334,11 +334,10 @@ const products = [
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/gta-trilogy.png" 
       },
 
-      //sale June 11, 2025
       { 
-        name: "Green Hell [Primary]", 
+        name: "Green Hell", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 10,000ks <br>✅ NA - 5,000ks", 
+        price: "<br> ❌ PA - 10,000ks <br>✅ NA - 5,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/green-hell.png" 
       },
 
