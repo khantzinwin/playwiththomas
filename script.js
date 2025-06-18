@@ -10,7 +10,7 @@ const products = [
       { 
         name: "Assassin's Creed Antiquity Pack", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/assassin's-creed-antiquity-pack.png" 
       },
 
