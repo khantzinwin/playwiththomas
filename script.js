@@ -50,16 +50,16 @@ const products = [
       },
 
       { 
-        name: "Assassin's Creed Syndicate [sale]", 
+        name: "Assassin's Creed Syndicate", 
         version: "<br>Version - PS4",
         price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/assassin's-creed-syndicate.png" 
       },
 
       { 
-        name: "Assassin's Creed Unity [sale]", 
+        name: "Assassin's Creed Unity", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/assassin's-creed-unity.png" 
       },
 
@@ -92,9 +92,9 @@ const products = [
       },
 
       { 
-        name: "A Way Out + It Takes Two [Hazelight Bundle]", 
+        name: "A Way Out + It Takes Two [Hazelight Bundle] [sale]", 
         version: "<br>Version - A Way Out [PS4], It Takes Two [PS5/PS4]",
-        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/hazelight-bundle.png" 
       },
 
@@ -106,9 +106,9 @@ const products = [
       },
 
       { 
-        name: "Battlefield V Definitive Edition [sale]", 
+        name: "Battlefield V Definitive Edition", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/battlefield-v-definitive-edition.png" 
       },
 
@@ -134,9 +134,9 @@ const products = [
       },
 
       { 
-        name: "Call of Duty Black Ops 4 [sale]", 
+        name: "Call of Duty Black Ops 4", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/cod-black-ops-4.png" 
       },
 
@@ -155,9 +155,9 @@ const products = [
       },
 
       { 
-        name: "Call of Duty Modern Warfare [sale]", 
+        name: "Call of Duty Modern Warfare", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/cod-modern-warfare.png" 
       },
 
@@ -176,9 +176,9 @@ const products = [
       },
 
       { 
-        name: "Call of Duty Vanguard Cross Gen Bundle [sale]", 
+        name: "Call of Duty Vanguard Cross Gen Bundle", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 50,000ks <br>✅ PS4AA - 50,000ks <br> ✅ DA - 25,000ks", 
+        price: "<br> ❌ PS5AA - 50,000ks <br>❌ PS4AA - 50,000ks <br> ❌ DA - 25,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/cod-vanguard.png" 
       },
 
@@ -197,9 +197,9 @@ const products = [
       },
 
       { 
-        name: "Crash Bandicoot 4 It's About Time", 
+        name: "Crash Bandicoot 4 It's About Time [sale]", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/crash-bandicoot-4.png" 
       },
 
@@ -253,9 +253,9 @@ const products = [
       },
 
       { 
-        name: "Dying Light Definitive Edition", 
+        name: "Dying Light Definitive Edition [sale]", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/dying-light.png" 
       },
 
@@ -288,16 +288,16 @@ const products = [
       },
 
       { 
-        name: "Far Cry 5 [sale]", 
+        name: "Far Cry 5", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ❌ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/far-cry-5.png" 
       },
 
       { 
-        name: "Far Cry 6 [sale]", 
+        name: "Far Cry 6", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/far-cry-6.png" 
       },
 
@@ -358,9 +358,9 @@ const products = [
       },
 
       { 
-        name: "God of War III Remastered [sale]", 
+        name: "God of War III Remastered", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/gow-iii.png" 
       },
 
@@ -386,9 +386,9 @@ const products = [
       },
 
       { 
-        name: "Grand Theft Auto V", 
+        name: "Grand Theft Auto V [sale]", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ✅ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/gtav.png" 
       },
 
@@ -400,16 +400,16 @@ const products = [
       },
 
       { 
-        name: "Green Hell [sale]", 
+        name: "Green Hell", 
         version: "<br>Version - PS4 & PS5",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/green-hell.png" 
       },
 
       { 
-        name: "Grounded", 
+        name: "Grounded [sale]", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/grounded.png" 
       },
 
@@ -428,9 +428,9 @@ const products = [
       },
 
       { 
-        name: "Hogwarts Legacy Deluxe Edition", 
+        name: "Hogwarts Legacy Deluxe Edition [sale]", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 40,000ks <br>❌ PS4AA - 40,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/hogwarts-legacy.png" 
       },
 
@@ -477,9 +477,9 @@ const products = [
       },
 
       { 
-        name: "LEGO DC Super Villains [sale]", 
+        name: "LEGO DC Super Villains", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/lego-super-villains.png" 
       },
 
@@ -575,9 +575,9 @@ const products = [
       },
 
       { 
-        name: "Metro Exodus", 
+        name: "Metro Exodus [sale]", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/metro-exodus.png" 
       },
 
@@ -680,23 +680,23 @@ const products = [
       },
 
       { 
-        name: "Red Dead Redemption II", 
+        name: "Red Dead Redemption II [sale]", 
         version: "<br>Version - PS4",
-        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/rdr2.png" 
       },
 
       { 
-        name: "Resident Evil 2 Remake [sale]", 
+        name: "Resident Evil 2 Remake", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ❌ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/re2.png" 
       },
 
       { 
-        name: "Resident Evil 3 Remake [sale]", 
+        name: "Resident Evil 3 Remake", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ❌ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/re3.png" 
       },
 
@@ -722,16 +722,16 @@ const products = [
       },
 
       { 
-        name: "Resident Evil 4 Remake Gold Edition [sale]", 
+        name: "Resident Evil 4 Remake Gold Edition", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 50,000ks <br>✅ PS4AA - 50,000ks <br> ✅ DA - 25,000ks", 
+        price: "<br> ❌ PS5AA - 50,000ks <br>❌ PS4AA - 50,000ks <br> ❌ DA - 25,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/re4-remake-ge.png" 
       },
 
       { 
-        name: "Resident Evil 7 Biohazard [sale]", 
+        name: "Resident Evil 7 Biohazard", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ❌ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/re7.png" 
       },
 
@@ -750,9 +750,9 @@ const products = [
       },
 
       { 
-        name: "Sekiro Shadow Die Twice GOTY Edition [sale]", 
+        name: "Sekiro Shadow Die Twice GOTY Edition", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 50,000ks <br>✅ PS4AA - 50,000ks <br> ✅ DA - 25,000ks", 
+        price: "<br> ✅ PS5AA - 50,000ks <br>✅ PS4AA - 50,000ks <br> ❌ DA - 25,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/sekiro.png" 
       },
 
@@ -785,9 +785,9 @@ const products = [
       },
 
       { 
-        name: "Sniper Elite 5 [sale]", 
+        name: "Sniper Elite 5", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 30,000ks <br>✅ PS4AA - 30,000ks <br> ✅ DA - 15,000ks", 
+        price: "<br> ❌ PS5AA - 30,000ks <br>❌ PS4AA - 30,000ks <br> ❌ DA - 15,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/sniper-elite-5.png" 
       },
 
@@ -883,9 +883,9 @@ const products = [
       },
 
       { 
-        name: "The Quarry Deluxe Edition", 
+        name: "The Quarry Deluxe Edition [sale]", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 25,000ks <br>✅ PS4AA - 25,000ks <br> ❌ DA - 15,000ks", 
+        price: "<br> ✅ PS5AA - 25,000ks <br>✅ PS4AA - 25,000ks <br> ✅ DA - 15,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/the-quarry.png" 
       },
 
@@ -1040,16 +1040,16 @@ const products2 = [
       },
 
       { 
-        name: "Black Myth Wukong", 
+        name: "Black Myth Wukong [sale]", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 130,000ks <br> ❌ PS5DA - 80,000ks", 
+        price: "<br> ✅ PS5AA - 120,000ks <br> ✅ PS5DA - 60,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/bmw.png" 
       },
 
       { 
-        name: "Brothers: A Tale of Two Sons Remake", 
+        name: "Brothers: A Tale of Two Sons Remake [sale]", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 30,000ks <br> ❌ PS5DA - 15,000ks", 
+        price: "<br> ✅ PS5AA - 30,000ks <br> ✅ PS5DA - 15,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/brothers-ataleoftwosons.png" 
       },
 
@@ -1082,9 +1082,9 @@ const products2 = [
       },
 
       { 
-        name: "Final Fantasy VII Rebirth [sale]", 
+        name: "Final Fantasy VII Rebirth", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
+        price: "<br> ❌ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/ff7-rebirth.png" 
       },
 
@@ -1152,7 +1152,7 @@ const products2 = [
       },
 
       { 
-        name: "Silent Hill 2 [sale]", 
+        name: "Silent Hill 2", 
         version: "<br>Version - PS5",
         price: "<br> ✅ PS5AA - 130,000ks <br> ✅ PS5DA - 65,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/silent-hill-2.png" 
@@ -1194,9 +1194,9 @@ const products2 = [
       },
 
       { 
-        name: "UFC 5 [sale]", 
+        name: "UFC 5", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 90,000ks <br> ✅ PS5DA - 45,000ks", 
+        price: "<br> ✅ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/ufc-5.png" 
       },
 
