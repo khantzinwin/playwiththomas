@@ -594,9 +594,9 @@ const products = [
       },
 
       { 
-        name: "No Man's Sky [primary]", 
+        name: "No Man's Sky", 
         version: "<br>Version - NS & NS2",
-        price: "<br> ✅ PA - 40,000ks <br>✅ NA - 20,000ks", 
+        price: "<br> ❌ PA - 40,000ks <br>✅ NA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/no-man-sky.png" 
       },
 
