@@ -360,7 +360,7 @@ const products = [
       { 
         name: "God of War III Remastered", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ✅ DA - 10,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>❌ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/gow-iii.png" 
       },
 
@@ -976,7 +976,7 @@ const products = [
       { 
         name: "WWE 2K25 Cross Gen Digital Edition", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 90,000ks <br>✅ PS4AA - 90,000ks <br> ❌ DA - 45,000ks", 
+        price: "<br> ❌ PS5AA - 90,000ks <br>✅ PS4AA - 90,000ks <br> ❌ DA - 45,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/wwe-2k25.png" 
       }
     ];
