@@ -720,9 +720,9 @@ const products = [
       },
 
       { 
-        name: "Resident Evil 6 [primary]", 
+        name: "Resident Evil 6", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 20,000ks <br>✅ NA - 10,000ks", 
+        price: "<br> ❌ PA - 20,000ks <br>✅ NA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/resident-evil-6.png" 
       },
 
