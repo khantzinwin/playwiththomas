@@ -259,9 +259,9 @@ const products = [
       },
 
       { 
-        name: "Dragon's Dogma: Dark Arisen [primary]", 
+        name: "Dragon's Dogma: Dark Arisen", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 15,000ks <br>✅ NA - 7,000ks", 
+        price: "<br> ❌ PA - 15,000ks <br>✅ NA - 7,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/dragon-dogma.png" 
       },
 
@@ -762,9 +762,9 @@ const products = [
       },
 
       { 
-        name: "SIFU", 
+        name: "SIFU [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 30,000ks <br>✅ NA - 15,000ks", 
+        price: "<br> ✅ PA - 20,000ks <br>✅ NA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/sifu.png" 
       },
 
