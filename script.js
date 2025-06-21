@@ -1098,7 +1098,7 @@ const products2 = [
       { 
         name: "Forza Horizon 5", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 140,000ks <br> ❌ PS5DA - 70,000ks", 
+        price: "<br> ❌ PS5AA - 140,000ks <br> ❌ PS5DA - 70,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/forza-horizon-5.png" 
       },
 
