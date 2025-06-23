@@ -1098,7 +1098,7 @@ const products2 = [
       { 
         name: "Forza Horizon 5", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 140,000ks <br> ❌ PS5DA - 70,000ks", 
+        price: "<br> ❌ PS5AA - 140,000ks <br> ✅ PS5DA - 70,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/forza-horizon-5.png" 
       },
 
@@ -1203,7 +1203,7 @@ const products2 = [
       { 
         name: "Uncharted Legacy of Thieves Collection", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
+        price: "<br> ❌ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/uncharted-legacy-of-thieves-collection.png" 
       },
 
