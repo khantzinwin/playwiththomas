@@ -1091,7 +1091,7 @@ const products2 = [
       { 
         name: "Final Fantasy XVI", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
+        price: "<br> ❌ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/ffxvi.png" 
       },
 
