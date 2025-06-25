@@ -456,7 +456,7 @@ const products = [
       { 
         name: "LEGO DC Super Villains", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 14,000ks <br>✅ NA - 7,000ks", 
+        price: "<br> ✅ PA - 20,000ks <br>✅ NA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/lego-super-villains.png" 
       },
 
