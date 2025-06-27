@@ -150,14 +150,14 @@ const products = [
       { 
         name: "Call of Duty Black Ops Cold War Cross Gen Bundle", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 40,000ks <br>✅ PS4AA - 40,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 40,000ks <br>❌ PS4AA - 40,000ks <br> ❌ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/cod-black-ops-cold-war.png" 
       },
 
       { 
         name: "Call of Duty Modern Warfare", 
         version: "<br>Version - PS4",
-        price: "<br> ❌ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/cod-modern-warfare.png" 
       },
 
@@ -1021,14 +1021,14 @@ const products2 = [
       { 
         name: "Assassin's Creed Shadows", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 150,000ks <br> ❌ PS5DA - 75,000ks", 
+        price: "<br> ✅PS5AA - 150,000ks <br> ❌ PS5DA - 75,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/ac-shadows.png" 
       },
 
       { 
         name: "Astro Bot", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 130,000ks <br> ❌ PS5DA - 65,000ks", 
+        price: "<br> ❌PS5AA - 130,000ks <br> ❌ PS5DA - 65,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/astro-bot.png" 
       },
 
@@ -1042,7 +1042,7 @@ const products2 = [
       { 
         name: "Black Myth Wukong [sale]", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 120,000ks <br> ✅ PS5DA - 60,000ks", 
+        price: "<br> ✅PS5AA - 120,000ks <br> ✅ PS5DA - 60,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/bmw.png" 
       },
 
@@ -1070,14 +1070,14 @@ const products2 = [
       { 
         name: "Dragon's Dogma 2", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
+        price: "<br> ✅PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/dragon-dogma-ii.png" 
       },
 
       { 
         name: "Dynasty Warriors Origins", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 150,000ks <br> ✅ PS5DA - 75,000ks", 
+        price: "<br> ✅PS5AA - 150,000ks <br> ✅ PS5DA - 75,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/dynasty-warriors-origins.png" 
       },
 
@@ -1126,14 +1126,14 @@ const products2 = [
       { 
         name: "Marvel's Spider-Man 2", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
+        price: "<br> ❌PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/sm-2.png" 
       },
 
       { 
         name: "Monster Hunter Wilds", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 200,000ks <br> ✅ PS5DA - 100,000ks", 
+        price: "<br> ❌PS5AA - 200,000ks <br> ✅PS5DA - 100,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/mh-wilds.png" 
       },
 
@@ -1147,14 +1147,14 @@ const products2 = [
       { 
         name: "Rise of the Ronin", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
+        price: "<br> ✅PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/rise-of-the-ronin.png" 
       },
 
       { 
         name: "Silent Hill 2", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 130,000ks <br> ✅ PS5DA - 65,000ks", 
+        price: "<br> ✅PS5AA - 130,000ks <br> ✅ PS5DA - 65,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/silent-hill-2.png" 
       },
 
@@ -1210,14 +1210,14 @@ const products2 = [
       { 
         name: "Warhammer 40,000: Space Marine 2", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 140,000ks <br> ❌ PS5DA - 70,000ks", 
+        price: "<br> ✅PS5AA - 140,000ks <br> ❌ PS5DA - 70,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/space-marine-2.png" 
       },
 
       { 
         name: "Wuchang Fallen Feathers Deluxe Edition [Pre Order]", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 140,000ks <br> ✅ PS5DA - 70,000ks", 
+        price: "<br> ✅PS5AA - 140,000ks <br> ✅ PS5DA - 70,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/Wuchang%20Fallen%20Feathers%20(1).png" 
       }
 ];
