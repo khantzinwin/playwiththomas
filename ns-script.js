@@ -510,9 +510,9 @@ const products = [
       },
 
       { 
-        name: "Mario + Rabbids Spark of Hope", 
+        name: "Mario + Rabbids Spark of Hope [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 30,000ks <br>✅ NA - 15,000ks", 
+        price: "<br> ✅ PA - 30,000ks <br>✅ NA - 15,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/mario-rabbids-sparks-of-hope.png" 
       },
 
