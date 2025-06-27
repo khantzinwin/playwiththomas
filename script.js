@@ -1035,7 +1035,7 @@ const products2 = [
       { 
         name: "A Plague Tale: Requiem", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 60,000ks <br> ❌ PS5DA - 30,000ks", 
+        price: "<br> ❌ PS5AA - 60,000ks <br> ✅ PS5DA - 30,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/a-plague-tale-requiem.png" 
       },
 
