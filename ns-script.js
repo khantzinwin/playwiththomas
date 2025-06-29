@@ -1072,6 +1072,13 @@ const products = [
       },
 
       { 
+        name: "The Legend of Zelda: Breath of the Wild [primary]", 
+        version: "<br>Version - NS2",
+        price: "<br> ✅ PA - 100,000ks <br> ✅ NA - 50,000ks", 
+        image: "https://storage.googleapis.com/pwt-img/nintendo-switch/zelda-botw.png" 
+      },
+
+      { 
         name: "Yakuza 0 Director Cut Edition [primary]", 
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 100,000ks <br> ✅ NA - 50,000ks", 
