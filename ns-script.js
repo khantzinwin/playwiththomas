@@ -881,9 +881,9 @@ const products = [
       },
 
       { 
-        name: "Super Mario Odyssey", 
+        name: "Super Mario Odyssey [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 45,000ks <br>✅ NA - 20,000ks", 
+        price: "<br> ✅ PA - 60,000ks <br>✅ NA - 30,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/super-mario-odyssey.png" 
       },
 
