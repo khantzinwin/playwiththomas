@@ -293,9 +293,9 @@ const products = [
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/fc-24.png" 
       },
       { 
-        name: "FC 25", 
+        name: "FC 25 [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 45,000ks <br>❌ NA - 20,000ks", 
+        price: "<br> ✅ PA - 45,000ks <br>✅ NA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/fc-25.png" 
       },
 
