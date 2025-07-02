@@ -349,6 +349,13 @@ const products = [
       },
 
       { 
+        name: "Hades", 
+        version: "<br>Version - NS",
+        price: "<br> ❌ PA - 20,000ks <br>✅ NA - 10,000ks", 
+        image: "https://storage.googleapis.com/pwt-img/nintendo-switch/hades.png" 
+      },
+
+      { 
         name: "Hogwarts Legacy", 
         version: "<br>Version - NS",
         price: "<br> ❌ PA - 40,000ks <br>✅ NA - 20,000ks", 
