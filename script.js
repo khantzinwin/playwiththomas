@@ -682,7 +682,7 @@ const products = [
       { 
         name: "Red Dead Redemption II", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 35,000ks <br>✅ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ✅ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/rdr2.png" 
       },
 
@@ -1042,7 +1042,7 @@ const products2 = [
       { 
         name: "Black Myth Wukong", 
         version: "<br>Version - PS5",
-        price: "<br> ❌PS5AA - 120,000ks <br> ❌ PS5DA - 60,000ks", 
+        price: "<br> ❌PS5AA - 120,000ks <br> ✅ PS5DA - 60,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/bmw.png" 
       },
 
@@ -1196,7 +1196,7 @@ const products2 = [
       { 
         name: "UFC 5", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 90,000ks <br> ✅ PS5DA - 45,000ks", 
+        price: "<br> ❌ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/ufc-5.png" 
       },
 
