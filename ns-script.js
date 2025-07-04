@@ -168,9 +168,9 @@ const products = [
       },
 
       { 
-        name: "Crash Bandicoot Nsane Trilogy", 
+        name: "Crash Bandicoot Nsane Trilogy [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 30,000ks <br>✅ NA - 15,000ks", 
+        price: "<br> ✅ PA - 30,000ks <br>✅ NA - 15,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/crash-bandicoot-nsane-trilogy.png" 
       },
 
