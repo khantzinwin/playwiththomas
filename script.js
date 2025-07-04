@@ -682,7 +682,7 @@ const products = [
       { 
         name: "Red Dead Redemption II", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/rdr2.png" 
       },
 
@@ -752,7 +752,7 @@ const products = [
       { 
         name: "Sekiro Shadow Die Twice GOTY Edition", 
         version: "<br>Version - PS4",
-        price: "<br> ✅ PS5AA - 50,000ks <br>✅ PS4AA - 50,000ks <br> ❌ DA - 25,000ks", 
+        price: "<br> ❌ PS5AA - 50,000ks <br>✅ PS4AA - 50,000ks <br> ❌ DA - 25,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/sekiro.png" 
       },
 
@@ -1182,7 +1182,7 @@ const products2 = [
       { 
         name: "The Last of Us Part I Remake", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 80,000ks <br> ❌ PS5DA - 40,000ks", 
+        price: "<br> ❌ PS5AA - 80,000ks <br> ❌ PS5DA - 40,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/tlous1-remake.png" 
       },
 
