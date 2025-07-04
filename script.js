@@ -388,7 +388,7 @@ const products = [
       { 
         name: "Grand Theft Auto V", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ✅ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 35,000ks <br>❌ PS4AA - 35,000ks <br> ❌ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/gtav.png" 
       },
 
@@ -1189,7 +1189,7 @@ const products2 = [
       { 
         name: "The Last of Us Part II Remastered", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 100,000ks <br> ✅ PS5DA - 50,000ks", 
+        price: "<br> ❌ PS5AA - 100,000ks <br> ❌ PS5DA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/tlous2-remastered.png" 
       },
 
