@@ -633,7 +633,7 @@ const products = [
       { 
         name: "Nioh 2 the Remastered Complete Edition", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 40,000ks <br>✅ PS4AA - 40,000ks <br> ✅ DA - 20,000ks", 
+        price: "<br> ❌ PS5AA - 40,000ks <br>✅ PS4AA - 40,000ks <br> ❌ DA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/nioh-2-remastered.png" 
       },
       
