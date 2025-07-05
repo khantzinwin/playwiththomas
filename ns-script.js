@@ -925,7 +925,7 @@ const products = [
       { 
         name: "The Legend of Zelda: Breath of the Wild", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 80,000ks <br>✅ NA - 40,000ks", 
+        price: "<br> ❌ PA - 80,000ks <br>❌ NA - 40,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/the-legend-of-zelda-breath-of-the-wild.png" 
       },
 
