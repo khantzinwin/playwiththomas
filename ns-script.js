@@ -673,7 +673,7 @@ const products = [
       { 
         name: "Persona 5 Royal", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 60,000ks <br>✅ NA - 30,000ks", 
+        price: "<br> ✅ PA - 40,000ks <br>✅ NA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/persona-5-royal.png" 
       },
 
