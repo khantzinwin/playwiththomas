@@ -1063,7 +1063,7 @@ const products2 = [
       { 
         name: "Devil May Cry 5 Special Edition", 
         version: "<br>Version - PS5",
-        price: "<br> ❌ PS5AA - 30,000ks <br> ❌ PS5DA - 15,000ks", 
+        price: "<br> ✅ PS5AA - 30,000ks <br> ❌ PS5DA - 15,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/dmc5-se.png" 
       },
 
