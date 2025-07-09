@@ -356,9 +356,9 @@ const products = [
       },
 
       { 
-        name: "Hogwarts Legacy", 
-        version: "<br>Version - NS",
-        price: "<br> ❌ PA - 40,000ks <br>✅ NA - 20,000ks", 
+        name: "Hogwarts Legacy [primary]", 
+        version: "<br>Version - NS1 & NS2",
+        price: "<br> ✅ PA - 40,000ks <br>✅ NA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/hogwarts-legacy.png" 
       },
 
