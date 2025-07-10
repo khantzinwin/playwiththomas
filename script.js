@@ -1056,7 +1056,7 @@ const products2 = [
       { 
         name: "Death Stranding 2", 
         version: "<br>Version - PS5",
-        price: "<br> ❌PS5AA - 200,000ks <br> ❌PS5DA - 100,000ks", 
+        price: "<br> ✅PS5AA - 160,000ks <br> ❌PS5DA - 80,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/death-stranding-2.png" 
       },
 
