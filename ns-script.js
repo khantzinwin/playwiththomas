@@ -293,9 +293,9 @@ const products = [
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/fc-24.png" 
       },
       { 
-        name: "FC 25 [primary]", 
+        name: "FC 25", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 45,000ks <br>✅ NA - 20,000ks", 
+        price: "<br> ❌ PA - 45,000ks <br>❌ NA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/fc-25.png" 
       },
 
@@ -517,9 +517,9 @@ const products = [
       },
 
       { 
-        name: "Mario + Rabbids Spark of Hope [primary]", 
+        name: "Mario + Rabbids Spark of Hope", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 30,000ks <br>✅ NA - 15,000ks", 
+        price: "<br> ❌ PA - 30,000ks <br>✅ NA - 15,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/mario-rabbids-sparks-of-hope.png" 
       },
 
@@ -673,7 +673,7 @@ const products = [
       { 
         name: "Persona 5 Royal", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 40,000ks <br>✅ NA - 20,000ks", 
+        price: "<br> ❌ PA - 40,000ks <br>✅ NA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/persona-5-royal.png" 
       },
 
