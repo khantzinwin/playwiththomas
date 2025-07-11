@@ -839,9 +839,9 @@ const products = [
       },
 
       { 
-        name: "Story of Seasons Friends of Mineral Town [primary]", 
+        name: "Story of Seasons Friends of Mineral Town", 
         version: "<br>Version - NS",
-        price: "<br> ✅ PA - 20,000ks <br>✅ NA - 10,000ks", 
+        price: "<br> ❌ PA - 20,000ks <br>✅ NA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/story-of-seasons-friends-of-mineral-town.png" 
       },
 
