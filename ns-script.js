@@ -330,7 +330,7 @@ const products = [
       { 
         name: "Grand Theft Auto Trilogy", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 60,000ks <br>✅ NA - 25,000ks", 
+        price: "<br> ❌ PA - 60,000ks <br>❌ NA - 25,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/gta-trilogy.png" 
       },
 
@@ -1057,6 +1057,13 @@ const products = [
     });
 
     const products2 = [
+      { 
+        name: "Donkey Kong™ Bananza [primary]", 
+        version: "<br>Version - NS2",
+        price: "<br> ✅ PA - 120,000ks <br> ✅ NA - 70,000ks", 
+        image: "https://storage.googleapis.com/pwt-img/nintendo-switch/Donkey%20Kong%20Bananza.png" 
+      },
+
       { 
         name: "Cyberpunk 2077 Ultimate Edition [primary]", 
         version: "<br>Version - NS2",
