@@ -91,9 +91,9 @@ const products = [
       },
 
       { 
-        name: "Blasphemous", 
+        name: "Blasphemous [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 15,000ks <br>✅ NA - 10,000ks", 
+        price: "<br> ✅ PA - 15,000ks <br>✅ NA - 8,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/blasphemous.png" 
       },
 
