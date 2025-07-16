@@ -1208,9 +1208,9 @@ const products2 = [
       },
 
       { 
-        name: "Uncharted Legacy of Thieves Collection [sale]", 
+        name: "Uncharted Legacy of Thieves Collection", 
         version: "<br>Version - PS5",
-        price: "<br> ✅ PS5AA - 90,000ks <br> ✅ PS5DA - 45,000ks", 
+        price: "<br> ✅ PS5AA - 90,000ks <br> ❌ PS5DA - 45,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/uncharted-legacy-of-thieves-collection.png" 
       },
 
