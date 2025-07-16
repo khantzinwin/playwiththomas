@@ -752,7 +752,7 @@ const products = [
       { 
         name: "Sekiro Shadow Die Twice GOTY Edition", 
         version: "<br>Version - PS4",
-        price: "<br> ❌ PS5AA - 50,000ks <br>✅ PS4AA - 50,000ks <br> ❌ DA - 25,000ks", 
+        price: "<br> ❌ PS5AA - 50,000ks <br>❌ PS4AA - 50,000ks <br> ❌ DA - 25,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/sekiro.png" 
       },
 
