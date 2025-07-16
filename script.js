@@ -143,7 +143,7 @@ const products = [
       { 
         name: "Call of Duty Black Ops 6 Cross Gen Bundle", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 80,000ks <br>❌ PS4AA - 80,000ks <br> ✅ DA - 40,000ks", 
+        price: "<br> ❌ PS5AA - 80,000ks <br>❌ PS4AA - 80,000ks <br> ❌ DA - 40,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/cod-black-ops-6.png" 
       },
 
