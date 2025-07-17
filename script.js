@@ -1057,7 +1057,7 @@ const products2 = [
         name: "Clair Obscur: Expedition 33 [sale]", 
         version: "<br>Version - PS5",
         price: "<br> ✅ PS5AA - 120,000ks <br> ✅ PS5DA - 60,000ks", 
-        image: "hhttps://storage.googleapis.com/pwt-img/ps4andps5/clair-boscur.avif" 
+        image: "https://storage.googleapis.com/pwt-img/ps4andps5/clair-boscur.avif" 
       },
 
       { 
