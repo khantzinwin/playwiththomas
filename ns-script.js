@@ -1061,7 +1061,7 @@ const products = [
       { 
         name: "Cyberpunk 2077 Ultimate Edition [primary]", 
         version: "<br>Version - NS2",
-        price: "<br> ✅ PA - 150,000ks <br> ✅ NA - 75,000ks", 
+        price: "<br> ✅ PA - 120,000ks <br> ✅ NA - 60,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/cyberpunk.png" 
       },
 
