@@ -568,7 +568,7 @@ const products = [
       { 
         name: "Mortal Kombat 1", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 35,000ks <br>✅ NA - 20,000ks", 
+        price: "<br> ❌ PA - 35,000ks <br>❌ NA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/mk1.png" 
       },
 
