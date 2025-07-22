@@ -951,9 +951,9 @@ const products = [
       },
 
       { 
-        name: "The Witcher III Wild Hunt Complete Edition", 
+        name: "The Witcher III Wild Hunt Complete Edition [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 40,000ks <br>✅ NA - 20,000ks", 
+        price: "<br> ✅ PA - 30,000ks <br>✅ NA - 15,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/the-witcher-iii-wild-hunt-complete-edition.png" 
       },
 
