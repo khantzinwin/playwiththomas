@@ -496,9 +496,9 @@ const products = [
       },
 
       { 
-        name: "Little Nightmares 2", 
+        name: "Little Nightmares 2 [Primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 20,000ks <br>✅ NA - 10,000ks", 
+        price: "<br> ✅ PA - 10,000ks <br>✅ NA - 5,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/ln2.png" 
       },
 
