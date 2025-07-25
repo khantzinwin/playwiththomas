@@ -1089,6 +1089,13 @@ const products2 = [
       },
 
       { 
+        name: "Dying Light the Beast [Pre Order]", 
+        version: "<br>Version - PS5",
+        price: "<br> ✅PS5AA - 120,000ks <br> ✅ PS5DA - 60,000ks", 
+        image: "https://storage.googleapis.com/pwt-img/ps4andps5/dying-light-the-beast.jpg" 
+      },
+
+      { 
         name: "Dynasty Warriors Origins [sale]", 
         version: "<br>Version - PS5",
         price: "<br> ✅PS5AA - 140,000ks <br> ✅ PS5DA - 70,000ks", 
