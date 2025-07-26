@@ -213,7 +213,7 @@ const products = [
       { 
         name: "Crash Team Racing Nitro Fueled", 
         version: "<br>Version - PS4",
-        price: "<br> ❌ PS5AA - 30,000ks <br>✅ PS4AA - 30,000ks <br> ❌ DA - 15,000ks", 
+        price: "<br> ❌ PS5AA - 30,000ks <br>❌ PS4AA - 30,000ks <br> ❌ DA - 15,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/crash-team-racing.png" 
       },
 
