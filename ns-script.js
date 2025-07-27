@@ -855,7 +855,7 @@ const products = [
       { 
         name: "Stray", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 60,000ks <br>✅ NA - 40,000ks", 
+        price: "<br> ✅ PA - 40,000ks <br>✅ NA - 20,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/stray.png" 
       },
 
