@@ -643,9 +643,9 @@ const products = [
       },
 
       { 
-        name: "Ori and the Blind Forest Definitive Edition", 
+        name: "Ori and the Blind Forest Definitive Edition [primary]", 
         version: "<br>Version - NS",
-        price: "<br> ❌ PA - 20,000ks <br>✅ NA - 10,000ks", 
+        price: "<br> ✅ PA - 20,000ks <br>✅ NA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/ori-and-the-blind-forest.png" 
       },
 
