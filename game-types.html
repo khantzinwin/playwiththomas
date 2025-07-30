@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Types</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <div class="gametype-h1">
+    <h1>Game Types Page</h2>
+  </div>
+
+  <div class="game-types-main-div">
+    <div class="game-types-small-div">
+        <a href="game-types-ps.html">
+            <div><img src="images/ps-logo-transparent.png" alt=""></div>
+            <div><p>PlayStation ရဲ့ AA နဲ့ DA ကဘာလဲ?</p></div>
+        </a>
+    </div>
+    <div class="game-types-small-div">
+        <a href="game-types-ns.html">
+            <div><img src="images/ns-logo-transparent.png" alt=""></div>
+            <div><p>Nintendo ရဲ့ PA နဲ့ NA ကဘာလဲ?</p></div>
+        </a>
+    </div>
+  </div>
+
+  <div id="controlCenter" class="controlCenter">
+    <div class="controlCenterSmallDiv">
+      <div class="controlCenterItm">
+        <button id="backBtn" title="Go to Back" onclick="goBack()">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="messengerBtn" title="Buy Game" onclick="openMessenger()">
+          <i class="fa-brands fa-facebook-messenger"></i>
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="homeBtn" title="Go to Home">
+          <i class="fas fa-home"></i> 
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="searchBtn" title="Search Game" onclick="focusInput()">
+          <i class="fas fa-search"></i> 
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="backToTopBtn" title="Go to top">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/include.js"></script>
+</body>
+
+</html>

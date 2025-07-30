@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Play with Thomas</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- navigation bar and console div -->
+    <div id="header"></div>
+
+    <div class="gametype-h1">
+        <h1>Contact Page</h2>
+    </div>
+
+    <!-- social links -->
+    <div class="scoial-links-main-div">
+       <div class="social-links-small-div-1">
+            <a href="https://www.facebook.com/playwiththomas">
+                <img src="images/social-link-logos/fb-logo.png" alt="">
+                <p>Facebook</p>
+            </a>
+            <a href="http://m.me//playwiththomas">
+                <img src="images/social-link-logos/messenger-logo.png" alt="">
+                <p>Messenger</p>
+            </a>
+            <a href="https://t.me/playwiththomasadmin">
+                <img src="images/social-link-logos/telegram-logo.png" alt="">
+                <p>Telegram</p> 
+            </a>
+            <a href="#" onclick="showViberMessage()">
+                <img src="images/social-link-logos/viber-logo.png" alt="">
+                <p>Viber</p>
+            </a>
+       </div>
+        <div class="gametype-h1 group-h1">
+            <h1>Group</h2>
+        </div>
+       <div class="social-links-small-div-1">
+            <a href="https://www.messenger.com/channel/playwiththomas">
+                <img src="images/social-link-logos/messenger-logo.png" alt="">
+                <p>Messenger <br> Group</p>
+            </a>
+            <a href="https://t.me/playwiththomas">
+                <img src="images/social-link-logos/telegram-logo.png" alt="">
+                <p>Telegram <br> Group</p>
+            </a>
+           <a href="https://www.tiktok.com/@playwiththomas?_t=ZS-8yT2Ug1wq2x&_r=1">
+                <img src="images/social-link-logos/tiktok-logo.png" alt="">
+                <p>TikTok <br> Media</p>
+            </a>
+       </div>
+    </div>
+
+    <div class="desc home-desc">
+        <p class="title-p">Keep In Touch ဖြစ်ဖို့အတွက် သက်ဆိုင်ရာ Group လေးတွေကို join ပေးထားပါ။</p>
+    </div>
+
+    <!-- Control Center -->
+    <div id="controlCenter" class="controlCenter">
+      <div class="controlCenterSmallDiv">
+        <div class="controlCenterItm">
+          <button id="backBtn" title="Go to Back" onclick="goBack()">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+        <div class="controlCenterItm">
+          <button id="messengerBtn" title="Buy Game" onclick="openMessenger()">
+            <i class="fa-brands fa-facebook-messenger"></i>
+          </button>
+        </div>
+        <div class="controlCenterItm">
+          <button id="homeBtn" title="Go to Home">
+            <i class="fas fa-home"></i> 
+          </button>
+        </div>
+        <div class="controlCenterItm">
+          <button id="searchBtn" title="Search Game" onclick="focusInput()">
+            <i class="fas fa-search"></i> 
+          </button>
+        </div>
+        <div class="controlCenterItm">
+          <button id="backToTopBtn" title="Go to top">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/ps-script.js"></script>
+    <script src="js/include.js"></script>
+</body>
+</html>

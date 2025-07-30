@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PlayStation Game Types</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <div class="gametype-h1">
+    <h1>Game Types Page</h2>
+  </div>
+
+  <div class="game-types-main-div">
+    <div class="game-types-small-div game-types-small-div-ps">
+        <a href="game-types-ps.html">
+            <div><img src="images/ps-logo-transparent.png" alt=""></div>
+            <div><p>PS ရဲ့ AA နဲ့ DA ကဘာလဲ?</p></div>
+        </a>
+    </div>
+    <div class="game-types-small-div">
+        <a href="game-types-ns.html">
+            <div><img src="images/ns-logo-transparent.png" alt=""></div>
+            <div><p>NS ရဲ့ PA နဲ့ NA ကဘာလဲ?</p></div>
+        </a>
+    </div>
+  </div>
+
+  <div class="aada-h1">
+    <h1>Activated Account နဲ့ Deactivated Account ဆိုတာဘာလဲ?</h2>
+  </div>
+
+  <div class="desc ps-gametypes-desc">
+    <p>AA နဲ့ DA ဘာကွာလဲ?</p> <br>
+    <p>AA - ၀ယ်ယူတဲ့ game account ကို စက်ထဲထည့်ပြီး download လုပ်ရပါမယ်။ Game Down ပြီးလို့ game ဆော့တဲ့အခါ ကိုယ်ပိုင် playstation account နဲ့ဆော့လို့ရပါတယ်။ Wifi ချိတ်ပြီးဖြစ်ဖြစ် မချိတ်ဘဲနဲ့ဖြစ်ဖြစ် ဆော့လို့ရပါတယ်။</p> <br>
+    <p>DA - ၀ယ်ယူသော game account ကို စက်ထဲထည့်ပြီး download လုပ်ရပါမယ်။ download လုပ်ပြီး အဲ့ Game ကို ဆော့တဲ့အခါ အဲ့ Game Accoun ထဲမှာဘဲဆော့ပေးရပါမယ်။ ကိုယ်ပိုင် Account ထဲမှာဆော့လို့မရပါ။ဆော့တဲ့အခါ wifi ချိတ်ပေးထားဖို့လိုအပ်ပေမယ့် လိုင်းကောင်းစရာလဲ မလိုသလို data လဲမကုန်ပါ။ background မှာ license key လေးကို refresh လုပ်ဖို့အတွက်ပါ။ wifi ပျက်သွားတဲ့အခါမျိုးဆိုရင်တောင် mobile data or cellular data နဲ့ hos လွှင့်ပြီးတောင် ဆော့ကစားနိုင်ပါတယ်။ Data မကုန်ပါ။</p> <br>
+    <p>Online Multiplayer ဆော့ချင်ရင် ဘယ် type ကို ဝယ်ရမလဲ?</p>
+    <p>နှစ်ခုလုံး ကြိုက်ရာဝယ်လို့ရပါတယ်။ မိမိကိုယ်ပိုင် account ထဲမှာ PS+ ဝယ်ထားရုံနဲ့ AA ဘဲဖြစ်ဖြစ် DA ဘဲဖြစ်ဖြစ် Online Multiplayer ဆော့ကစားနိုင်ပါတယ်။</p> 
+  </div>
+
+  <div id="controlCenter" class="controlCenter">
+    <div class="controlCenterSmallDiv">
+      <div class="controlCenterItm">
+        <button id="backBtn" title="Go to Back" onclick="goBack()">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="messengerBtn" title="Buy Game" onclick="openMessenger()">
+          <i class="fa-brands fa-facebook-messenger"></i>
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="homeBtn" title="Go to Home">
+          <i class="fas fa-home"></i> 
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="searchBtn" title="Search Game" onclick="focusInput()">
+          <i class="fas fa-search"></i> 
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="backToTopBtn" title="Go to top">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/include.js"></script>
+</body>
+
+</html>

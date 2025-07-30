@@ -998,9 +998,11 @@ const products = [
         card.className = "product-card";
         card.innerHTML = `
           <img src="${p.image}" alt="${p.name}">
-          <div class="product-name">${p.name}</div>
-          <div class="product-version">${p.version}</div>
-          <div class="product-price">${p.price}</div>
+          <div class="product-sm-div">
+            <div class="product-name">${p.name}</div>
+            <div class="product-version">${p.version}</div>
+            <div class="product-price">${p.price}</div>
+          </div>
         `;
         productList.appendChild(card);
       });
@@ -1251,70 +1253,47 @@ const products2 = [
 ];
 
 const productList2 = document.getElementById("productList2");
-    const searchInput2 = document.getElementById("searchInput");
+const searchInput2 = document.getElementById("searchInput");
 
-    function displayProducts2(filteredProducts2) {
-      productList2.innerHTML = "";
-      filteredProducts2.forEach(p => {
-        const card = document.createElement("div");
-        card.className = "product-card";
-        card.innerHTML = `
-          <img src="${p.image}" alt="${p.name}">
-          <div class="product-name">${p.name}</div>
-          <div class="product-version">${p.version}</div>
-          <div class="product-price">${p.price}</div>
-        `;
-        productList2.appendChild(card);
-      });
-    }
+function displayProducts2(filteredProducts2) {
+  productList2.innerHTML = "";
+  filteredProducts2.forEach(p => {
+    const card = document.createElement("div");
+    card.className = "product-card";
+    card.innerHTML = `
+      <img src="${p.image}" alt="${p.name}">
+      <div class="product-sm-div">
+        <div class="product-name">${p.name}</div>
+        <div class="product-version">${p.version}</div>
+        <div class="product-price">${p.price}</div>
+      </div>
+    `;
+    productList2.appendChild(card);
+  });
+}
 
-    // Initial render
-    displayProducts2(products2);
+// Initial render
+displayProducts2(products2);
+// Filter as user types
+searchInput2.addEventListener("input", () => {
+  const keyword = searchInput2.value.toLowerCase();
+  const filtered = products2.filter(p => p.name.toLowerCase().includes(keyword));
+  displayProducts2(filtered);
+});
 
-    // Filter as user types
-    searchInput2.addEventListener("input", () => {
-      const keyword = searchInput2.value.toLowerCase();
-      const filtered = products2.filter(p => p.name.toLowerCase().includes(keyword));
-      displayProducts2(filtered);
-    });
+//auto type "sale" in input box of ps page
+// Function to get query parameters from the URL
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+// Check if there's a search parameter in the URL
+const searchTerm = getQueryParam('search');
+if (searchTerm) {
+  searchInput.value = searchTerm; // Set the search input value
+  const filtered = products.filter(p => p.name.toLowerCase().includes(searchTerm.toLowerCase()));
+  displayProducts(filtered); // Display filtered products
 
-
-
-    // Back to Top Button Script Start
-    const backToTopBtn = document.getElementById("backToTopBtn");
-
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 200) {
-        backToTopBtn.style.display = "block";
-      } else {
-        backToTopBtn.style.display = "none";
-      }
-    });
-
-    backToTopBtn.addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }); 
-        //END
-
-    //Messenger Icon Button Start
-    const messengerBtn = document.getElementById("messengerBtn");
-
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 200) {
-        messengerBtn.style.display = "block";
-      } else {
-        messengerBtn.style.display = "none";
-      }
-    });
-
-    function openMessenger() {
-      window.open('http://m.me//ThomasBBR27', '_blank');
-    }
-    //End
-
-    // Hard refresh simulation: bypass browser cache on page refresh
-    const navEntries = performance.getEntriesByType("navigation");
-  if (navEntries.length > 0 && navEntries[0].type === "reload") {
-    const baseUrl = window.location.href.split('?')[0];
-    window.location.replace(`${baseUrl}?v=${Date.now()}`);
-  }
+  const filtered2 = products2.filter(p => p.name.toLowerCase().includes(searchTerm.toLowerCase()));
+  displayProducts2(filtered2); // Display filtered products
+}

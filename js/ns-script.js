@@ -1038,9 +1038,11 @@ const products = [
         card.className = "product-card";
         card.innerHTML = `
           <img src="${p.image}" alt="${p.name}">
-          <div class="product-name">${p.name}</div>
-          <div class="product-version">${p.version}</div>
-          <div class="product-price">${p.price}</div>
+          <div class="product-sm-div">
+            <div class="product-name">${p.name}</div>
+            <div class="product-version">${p.version}</div>
+            <div class="product-price">${p.price}</div>
+          </div>
         `;
         productList.appendChild(card);
       });
@@ -1059,42 +1061,42 @@ const products = [
     const products2 = [
 
       { 
-        name: "Cyberpunk 2077 Ultimate Edition [primary]", 
+        name: "Cyberpunk 2077 Ultimate Edition [primary] [ns2]", 
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 120,000ks <br> ✅ NA - 60,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/cyberpunk.png" 
       },
 
       { 
-        name: "Donkey Kong™ Bananza [primary]", 
+        name: "Donkey Kong™ Bananza [primary] [ns2]", 
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 120,000ks <br> ✅ NA - 70,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/Donkey%20Kong%20Bananza.png" 
       },
 
       { 
-        name: "Mario Kart World [primary]", 
+        name: "Mario Kart World [primary] [ns2]", 
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 160,000ks <br> ✅ NA - 80,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/mario-kart-world.png" 
       },
 
       { 
-        name: "Split Fiction [primary]", 
+        name: "Split Fiction [primary] [ns2]", 
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 100,000ks <br> ✅ NA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/split-fiction.png" 
       },
 
       { 
-        name: "The Legend of Zelda: Breath of the Wild [primary]", 
+        name: "The Legend of Zelda: Breath of the Wild [primary] [ns2]", 
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 100,000ks <br> ✅ NA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/zelda-botw.png" 
       },
 
       { 
-        name: "Yakuza 0 Director Cut Edition [primary]", 
+        name: "Yakuza 0 Director Cut Edition [primary] [ns2]", 
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 100,000ks <br> ✅ NA - 50,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/yakuza-zero.png" 
@@ -1111,9 +1113,11 @@ const products = [
         card.className = "product-card";
         card.innerHTML = `
           <img src="${p.image}" alt="${p.name}">
-          <div class="product-name">${p.name}</div>
-          <div class="product-version">${p.version}</div>
-          <div class="product-price">${p.price}</div>
+          <div class="product-sm-div">
+            <div class="product-name">${p.name}</div>
+            <div class="product-version">${p.version}</div>
+            <div class="product-price">${p.price}</div>
+          </div>
         `;
         productList2.appendChild(card);
       });
@@ -1129,41 +1133,19 @@ const products = [
       displayProducts2(filtered);
     });
 
-    // Back to Top Button Script Start
-    const backToTopBtn = document.getElementById("backToTopBtn");
+//auto type "sale" in input box of ps page
+// Function to get query parameters from the URL
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+// Check if there's a search parameter in the URL
+const searchTerm = getQueryParam('search');
+if (searchTerm) {
+  searchInput.value = searchTerm; // Set the search input value
+  const filtered = products.filter(p => p.name.toLowerCase().includes(searchTerm.toLowerCase()));
+  displayProducts(filtered); // Display filtered products
 
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 200) {
-        backToTopBtn.style.display = "block";
-      } else {
-        backToTopBtn.style.display = "none";
-      }
-    });
-
-    backToTopBtn.addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }); 
-        //END
-
-    //Messenger Icon Button Start
-    const messengerBtn = document.getElementById("messengerBtn");
-
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 200) {
-        messengerBtn.style.display = "block";
-      } else {
-        messengerBtn.style.display = "none";
-      }
-    });
-
-    function openMessenger() {
-      window.open('http://m.me//ThomasBBR27', '_blank');
-    }
-    //End
-
-    // Hard refresh simulation: bypass browser cache on page refresh
-  //   const navEntries = performance.getEntriesByType("navigation");
-  // if (navEntries.length > 0 && navEntries[0].type === "reload") {
-  //   const baseUrl = window.location.href.split('?')[0];
-  //   window.location.replace(`${baseUrl}?v=${Date.now()}`);
-  // }
+  const filtered2 = products2.filter(p => p.name.toLowerCase().includes(searchTerm.toLowerCase()));
+  displayProducts2(filtered2); // Display filtered products
+}

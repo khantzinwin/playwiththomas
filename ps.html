@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Play with Thomas</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-ps">
+
+  <!-- navigation bar and console div -->
+  <div id="header"></div>
+  
+  <!-- <div class="desc">
+    <p>*** ❌ ပြထားသော type သည် ကုန်နေပါပြီ။ ✅ ပြထားသော game type များသာ ရပါဦးမယ်။ ***</p> <br>
+    <p>*** Game တစ်ခုမှာရနိုင်တဲ့ version တွေကို version မှာ ရေးပေးထားပါတယ်။ တချို့သော game တွေက PS4 Version ဘဲ လာတဲ့အတွက် PS5 User များ၀ယ်ယူမယ်ဆိုရင် PS4 Version ကို PS5 ပေါ်မှာဆော့ရပါမယ်။ ***</p> <br>
+    <p>*** PS5 Version တွေဘဲ ရတဲ့ game တွေကို PS5 Players တွေဘဲ၀ယ်လို့ရပါမယ်။ PS4 Players များ၀ယ်လို့မရပါ။ Only on PS5 Game တွေဆို 5EGRP ရပါမယ်။ ***</p><br>
+    <p>*** DA Type သည် PS4 user ကော ps5 user ကော ၀ယ်လို့ရပါမယ်။ ***</p> <br>
+    <p>*** လိုချင်တဲ့ game ကို အလွယ်တကူရှာဖွေနိုင်ရန် အောက်က search input box ထဲမှာ game name ကို ရိုက်ထည့်လိုက်လို့ရပါတယ်။ ***</p> <br>
+    <p>*** PlayStation Store တွင် တစ်လနှစ်ခါ sale လာတဲ့အတွက် ဘယ် game တွေ sale ထဲလာလဲသိချင်ရင် search input box ထဲမှာ sale ဆိုပြီး ရိုက်ထည့်လိုက်ရင် sale ထဲပါတဲ့ game တွေကို ကြည့်လို့ရပါမယ်။ ***</p>
+  </div> -->
+
+  <div class="banner-div">
+    <a href="ps.html?search=sale">
+      <img src="images/sale-banner-2.png" alt="">
+    </a>
+    <!-- <p>ယခု sale သည် <span>June 18, 2025 </span>တွင် ကုန်ပါမည်။ <br>sale ထဲပါတဲ့ game ကိုသိနိုင်ရန် search box မှာ sale လို့ရိုက်ရှာကြည့်ပေးပါ။</p> -->
+  </div>
+
+  <div class="main-title">
+    <h1>PS4 & PS5 Digital Game List</h1>
+  </div>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Game Name ရိုက်ပြီး ရှာပါ..." />
+  </div>
+  
+  <div class="product-list" id="productList"></div>
+  <div class="ps5-exc-title">
+    <h4>PlayStation 5 Exclusive Game List</h4> 
+  </div>
+  <!-- game card -->
+  <div class="product-list2" id="productList2"></div>
+
+  <div id="controlCenter" class="controlCenter">
+    <div class="controlCenterSmallDiv">
+      <div class="controlCenterItm">
+        <button id="backBtn" title="Go to Back" onclick="goBack()">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="messengerBtn" title="Buy Game" onclick="openMessenger()">
+          <i class="fa-brands fa-facebook-messenger"></i>
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="homeBtn" title="Go to Home">
+          <i class="fas fa-home"></i> 
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="searchBtn" title="Search Game" onclick="focusInput()">
+          <i class="fas fa-search"></i> 
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="backToTopBtn" title="Go to top">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="footer"></div> -->
+
+  <script src="js/script.js"></script>
+  <script src="js/ps-script.js"></script>
+  <script src="js/include.js"></script>
+</body>
+</html>
