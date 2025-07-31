@@ -130,5 +130,5 @@ var swiper = new Swiper(".mySwiper", {
 
 //viber phone show message
 function showViberMessage() {
-  alert("Viber ထဲက Add Friend ထဲမှာ +66825502572 လို့ရိုက်ထည့်ပြီး Play with Thomas ကို Viber ကနေ ဆက်သွယ်နိင်ပါတယ်။");
+  alert("Viber ထဲက Add Friend ထဲမှာ +66825502571 လို့ရိုက်ထည့်ပြီး Play with Thomas ကို Viber ကနေ ဆက်သွယ်နိင်ပါတယ်။");
 }
