@@ -300,6 +300,13 @@ const products = [
       },
 
       { 
+        name: "FC 26 [Pre Order] [primary]", 
+        version: "<br>Version - NS",
+        price: "<br> ✅ PA - 120,000ks <br>✅ NA - 60,000ks", 
+        image: "https://storage.googleapis.com/pwt-img/ps4andps5/fc26.webp" 
+      },
+
+      { 
         name: "FIFA 22 Legacy Edition", 
         version: "<br>Version - NS",
         price: "<br> ❌ PA - 14,000ks <br>✅ NA - 7,000ks", 
@@ -1072,6 +1079,13 @@ const products = [
         version: "<br>Version - NS2",
         price: "<br> ✅ PA - 120,000ks <br> ✅ NA - 70,000ks", 
         image: "https://storage.googleapis.com/pwt-img/nintendo-switch/Donkey%20Kong%20Bananza.png" 
+      },
+
+      { 
+        name: "FC 26 [Pre Order][Primary][ns2]", 
+        version: "<br>Version - NS",
+        price: "<br> ✅ PA - 140,000ks <br>✅ NA - 70,000ks", 
+        image: "https://storage.googleapis.com/pwt-img/nintendo-switch/FC26.png" 
       },
 
       { 
