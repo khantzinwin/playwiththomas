@@ -281,6 +281,9 @@ header.menu-open .main-console-div {
   font-size: 15px;
   color: white;
 }
+.desc span {
+  color: red;
+}
 .search-box {
   margin: 0 20px;
   display: flex;
