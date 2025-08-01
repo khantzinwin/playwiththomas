@@ -731,7 +731,7 @@ const products = [
       { 
         name: "Resident Evil 4 Remake Gold Edition", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ❌ PS5AA - 50,000ks <br>❌ PS4AA - 50,000ks <br> ✅ DA - 25,000ks", 
+        price: "<br> ❌ PS5AA - 50,000ks <br>❌ PS4AA - 50,000ks <br> ❌ DA - 25,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/re4-remake-ge.png" 
       },
 
