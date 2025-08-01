@@ -1051,7 +1051,7 @@ const products2 = [
       { 
         name: "Black Myth Wukong", 
         version: "<br>Version - PS5",
-        price: "<br> ❌PS5AA - 120,000ks <br> ❌ PS5DA - 60,000ks", 
+        price: "<br> ❌PS5AA - 120,000ks <br> ✅ PS5DA - 60,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/bmw.png" 
       },
 
