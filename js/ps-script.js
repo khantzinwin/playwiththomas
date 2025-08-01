@@ -318,7 +318,7 @@ const products = [
       { 
         name: "FC 24", 
         version: "<br>Version - PS5 & PS4",
-        price: "<br> ✅ PS5AA - 30,000ks <br>✅ PS4AA - 30,000ks <br> ❌ DA - 15,000ks", 
+        price: "<br> ✅ PS5AA - 20,000ks <br>✅ PS4AA - 20,000ks <br> ❌ DA - 10,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/fc-24.png" 
       },
 
