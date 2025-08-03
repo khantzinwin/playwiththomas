@@ -1247,7 +1247,7 @@ const products2 = [
       { 
         name: "Wuchang Fallen Feathers Deluxe Edition", 
         version: "<br>Version - PS5",
-        price: "<br> ✅PS5AA - 140,000ks <br> ✅ PS5DA - 70,000ks", 
+        price: "<br> ❌ PS5AA - 140,000ks <br> ✅ PS5DA - 70,000ks", 
         image: "https://storage.googleapis.com/pwt-img/ps4andps5/Wuchang%20Fallen%20Feathers%20(1).png" 
       }
 ];
