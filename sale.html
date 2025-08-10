@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Play with Thomas</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+  <!-- navigation bar and console div -->
+  <div id="header"></div>
+
+  <div class="banner-div">
+    <a href="#">
+      <img src="images/anni-sale-landscape.png" alt="">
+    </a>
+    <p class="banner-div-p">
+      4th Year Anniversay Sale <span>30%</span>  <br> 
+      ဘာဘဲ၀ယ်၀ယ် Pre Order Game ကလွဲပြီးကျန်တာတွေအကုန် <span>Aug 10</span>  ကနေ <span>Aug 16</span>  အထိ 
+      <span>30% off</span> ပါမယ်။ အပေါ်က သက်ဆိုင်ရာ List ထဲမှာ Game List လေးကို၀င်ကြည့်လို့ရပါတယ်။
+    </p>
+  </div>
+
+  <!-- Page Description -->
+  <div class="desc home-desc">
+    <p class="title-p">4th Years Anniversary Big Sale 30% 🚨</p> <br>
+    <p>
+        Aug 10, 2021 ကနေစပြီး Play with Thomas page ကို စ run ခဲ့ပါတယ်။ 
+        ထိုသို့ စ run တဲ့ အခါမှာ PlayStation ရဲ့ Activated Account[AA] နဲ့ Deactivated Account[DA] တို့ကို 
+        introduce စလုပ်ခဲ့ပြီး သိပ်မကြာခင်ကာလမှာ Nintendo Switch ရဲ့ Primary Account[PA] နဲ့ Non-primary Account[NA] 
+        တို့ကို introduce စလုပ်နိုင်ခဲ့ပါတယ်။
+    </p> <br>
+    <p>
+        ရောင်းခဲ့ရတဲ့ကာလတွေမှာ မရေတွက်နိုင်အောင်အားပေးခဲ့ကြတဲ့ customer တွေအမြောက်အများကြီးရှိခဲ့ပါတယ်။ 
+        Customer List ကို ကြည့်ရင်တော့ အမှတ်တရတွေအများကြီးပါဘဲ။ ထို့သို့ရောင်းခဲ့ရတာဟာ PWT ရဲ့ 
+        ကြိုးစားအားထုတ်မှုတင်မကဘဲ လက်ဆင့်ကမ်းပြီး ညွှန်ပေးကြတဲ့ game ၀ါသနာရှင် ညီအစ်ကိုကြောင့်အများကြီးဆိုင်ပါတယ်။
+    </p> <br>
+    <p>
+        လက်ရှိမှာတော့ ဒီီpage လေးဟာ လေးနှစ်တောင်ပြည့်သွားခဲ့ပါပြီ။ 
+        အားပေးခဲ့ကြတဲ့ players တစ်ယောက်ချင်းစီတိုင်းကို ကျေးဇူးတုန့်ပြန်တဲ့အနေနဲ့ 
+        Aug 10 ကနေ Aug 16 အထိ 7 ရက်တိတိ ဘယ် game ဘဲ၀ယ်၀ယ် pre order game တွေကလွဲပြီး 
+        ကျန်တာတွေအကုန် 30% off ပါမယ်။ ဒီ sale ဟာ နှစ််််စဉ် ချပေးခဲ့တဲ့ sale ထဲမှာ အများဆုံးချဖူးတာဖြစ်ပါတယ်။ 
+        PlayStation Sale ကလဲ ရှိသေးတဲ့အပြင် Aug 14 ကျရင်လဲ sale အသစ်လာဦးမှာမို့လို့ Greate Timing ပါဘဲ။ 
+        အားလုံးဘဲ enjoy ပါ။ Game List များကို website ထဲ၀င်ကြည့်နိုင်ပါတယ်။
+    </p> <br>
+    <p>
+        တစ်ခုမေတ္တာရပ်ခံချင်တာက ပုံမှန်ထက် order တွေတအားများနေမှာမို့လို့ စာပြန်တာတွေ account လက်ခံရရှိတာလေးတွေက 
+        ပုံမှန်ထက် အနည်းငယ်ကြာနိုင်ပါတယ်။ အတတ်နိုင်ဆုံးတော့ ကြိုစားပေးပါမယ်။
+    </p>
+  </div>
+
+  <!-- Control Center -->
+  <div id="controlCenter" class="controlCenter">
+    <div class="controlCenterSmallDiv">
+      <div class="controlCenterItm">
+        <button id="backBtn" title="Go to Back" onclick="goBack()">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="messengerBtn" title="Buy Game" onclick="openMessenger()">
+          <i class="fa-brands fa-facebook-messenger"></i>
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="homeBtn" title="Go to Home">
+          <i class="fas fa-home"></i> 
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="searchBtn" title="Search Game" onclick="focusInput()">
+          <i class="fas fa-search"></i> 
+        </button>
+      </div>
+      <div class="controlCenterItm">
+        <button id="backToTopBtn" title="Go to top">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="js/script.js"></script>
+  <script src="js/include.js"></script>
+</body>
+
+</html>
