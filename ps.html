@@ -13,43 +13,59 @@
   <!-- navigation bar and console div -->
   <div id="header"></div>
   
-  <div class="desc">
-    <p class="desc-p">*** ❌ ပြထားသော type သည် ကုန်နေပါပြီ။ ✅ ပြထားသော game type များသာ ရပါဦးမယ်။ ***</p> <br>
-    <p class="desc-p">*** PS4 AA အတန်းသည် PS4 စက်နဲ့ဆော့ဖို့အတွက်ပါ။ ***</p> <br>
-    <p class="desc-p">*** PS5 AA အတန်းသည် PS5 စက်နဲ့ဆော့ဖို့အတွက်ပါ။ ***</p><br>
-    <p class="desc-p">*** DA အတန်းသည် PS4 စက်သမားကော PS5 စက်သမားကော ၀ယ်ဆော့လို့ရပါတယ်။ ***</p><br>
-    <p class="desc-p">*** game တစ်ခုမှာ ဘယ် version တွေပါသလဲကို version အတန်းမှာကြည့်လို့ရပါတယ်။ ***</p> <br>
-    <p class="desc-p">*** Sale ထဲပါတဲ့ game များကို တစ်နေရာတည်းကြည့်ချင်ရင် search box မှာ sale လို့ရိုက်ပြီးကြည့်လဲရသလို အောက်က sale image ကို နှိပ်ပြီးလဲ ကြည့်လို့ရပါတယ်။ ***</p>
-  </div>
-  <div class="see-more-btn-main-div">
-    <div class="ame-home-card-more-btn">
-      <a class="game-home-card-more-a" href="game-types-ps.html">
-      AA နဲ့ DA က ဘာလဲ?
+  <!-- <section class="reveal-up"> -->
+  <section class="reveal-up">
+    <div class="desc">
+      <p class="desc-p">*** ❌ ပြထားသော type သည် ကုန်နေပါပြီ။ ✅ ပြထားသော game type များသာ ရပါဦးမယ်။ ***</p> <br>
+      <p class="desc-p">*** PS4 AA အတန်းသည် PS4 စက်နဲ့ဆော့ဖို့အတွက်ပါ။ ***</p> <br>
+      <p class="desc-p">*** PS5 AA အတန်းသည် PS5 စက်နဲ့ဆော့ဖို့အတွက်ပါ။ ***</p><br>
+      <p class="desc-p">*** DA အတန်းသည် PS4 စက်သမားကော PS5 စက်သမားကော ၀ယ်ဆော့လို့ရပါတယ်။ ***</p><br>
+      <p class="desc-p">*** game တစ်ခုမှာ ဘယ် version တွေပါသလဲကို version အတန်းမှာကြည့်လို့ရပါတယ်။ ***</p> <br>
+      <p class="desc-p">*** Sale ထဲပါတဲ့ game များကို တစ်နေရာတည်းကြည့်ချင်ရင် search box မှာ sale လို့ရိုက်ပြီးကြည့်လဲရသလို အောက်က sale image ကို နှိပ်ပြီးလဲ ကြည့်လို့ရပါတယ်။ ***</p>
+    </div>
+    <div class="see-more-btn-main-div">
+      <div class="ame-home-card-more-btn">
+        <a class="game-home-card-more-a" href="game-types-ps.html">
+        AA နဲ့ DA က ဘာလဲ?
+        </a>
+      </div>  
+    </div>
+  </section>
+
+  <!-- Image Sale Photo -->
+  <section class="reveal-right">
+    <div class="banner-div">
+      <a href="ps.html?search=sale">
+        <img src="images/sale-banner-2.avif" alt="">
       </a>
-    </div>  
-  </div>
+    </div>
+  </section>
 
-  <div class="banner-div">
-    <a href="ps.html?search=sale">
-      <img src="images/sale-banner-2.avif" alt="">
-    </a>
-  </div>
+  <section class="reveal-up">
+    <div class="main-title">
+      <h1>PS4 & PS5 Digital Game List</h1>
+    </div>
 
-  <div class="main-title">
-    <h1>PS4 & PS5 Digital Game List</h1>
-  </div>
-
-  <div class="search-box">
-    <input type="text" id="searchInput" placeholder="Game Name ရိုက်ပြီး ရှာပါ..." />
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Game Name ရိုက်ပြီး ရှာပါ..." />
+    </div>
+  </section>
+  
+  <div class="product-list" id="productList">
   </div>
   
-  <div class="product-list" id="productList"></div>
+  <!-- <div class="refundable-program-img">
+    <a href="5egrp.html">
+      <img src="images/5egrp.png" alt="">
+    </a>
+  </div> -->
 
   <div class="ps5-exe-main-div">
     <div class="ps5-exc-title">
       <h4>PlayStation 5 Exclusive Game List</h4> 
     </div>
   </div>
+  
   <!-- game card -->
   <div class="product-list2" id="productList2"></div>
 
@@ -84,9 +100,8 @@
   </div>
 
   <!-- <div id="footer"></div> -->
-
-  <script src="js/include.js"></script>
-  <script src="js/script.js"></script>
+   <script src="js/script.js"></script>
   <script src="js/ps-script.js"></script>
+  <script src="js/include.js"></script>
 </body>
 </html>
