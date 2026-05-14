@@ -20,18 +20,27 @@
     <p>Thai Bahts နဲ့ပေးချင်သူများ ကျသင့်တဲ့ Myanmar Amount ကို <span>130</span> နဲ့စားလိုက်ရင် လွှဲရမယ့် Bahts ထွက်လာပါလိမ့်မယ်။</p>
   </div>
 
-  <div class="payment-card-main-div">
-    <div class="payment-card">
-        <h2 class="payment-title-h2">Myanmar Payment Method</h2>
-        <img src="images/mmk-payment-method.png" alt="">
+  <div class="payment-method-main-div">
+    <div class="payemnt-method-container">
+
+    <h2 class="paymethod-title">Payment Method</h2>
+
+    <!-- PAYMENT LIST -->
+    <div id="paymentMethods"></div>
+
+    <!-- IMAGE -->
+    <div class="payment-image">
+      <img id="paymentPreview" src="" alt="">
+
+      <h2 id="accountName"></h2>
+
+       <div class="phone-box" id="phoneNumber"></div>
     </div>
-    <div class="payment-card">
-        <h2 class="payment-title-h2">Thailand Payment Method</h2>
-        <img src="images/thb-payment-method.png" alt="">
+
     </div>
   </div>
-  
 
+  <!-- Control Center -->
   <div id="controlCenter" class="controlCenter">
     <div class="controlCenterSmallDiv">
       <div class="controlCenterItm">
@@ -62,8 +71,9 @@
     </div>
   </div>
 
-  <script src="js/include.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/payment-method.js"></script>
+  <script src="js/include.js"></script>
 </body>
 
 </html>
