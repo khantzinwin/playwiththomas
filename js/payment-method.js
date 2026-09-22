@@ -8,7 +8,7 @@ box.innerHTML=`
 
       <div class="payment-info">
         <h3>${payment.name}</h3>
-        <p>Check QR Code Below</p>
+        <p>အောက်ဆုံးကိုသွားပါ</p>
       </div>
 
     </div>
